@@ -1,0 +1,991 @@
+Flight_ID,Flight_Date,Airline,Origin,Destination,Flight_Status,Passenger_Count,Ticket_Price_INR,Flight_Duration_Min,Distance_KM,Booking_Channel,Cabin_Class,Aircraft_Type,Baggage_Allowance_KG
+FL0001,2025-11-24,Air India,Chennai,Hyderabad,Delayed,102,11644.0,427,569,Mobile App,Business,A320,35
+FL0002,2025-01-17,IndiGo,Delhi,Bengaluru,Delayed,174,41953.0,63,2448,Mobile App,Business,B787,20
+FL0003,2025-10-29,Akasa Air,Chennai,Goa,Cancelled,116,12689.0,160,4070,Travel Agent,Economy,A320,30
+FL0004,2025-07-03,IndiGo,Hyderabad,Delhi,Cancelled,162,37642.0,113,4135,Airport Counter,Economy,A350,25
+FL0005,2025-11-13,IndiGo,Bengaluru,Mumbai,On Time,214,17435.0,445,1335,Website,Business,A320,30
+FL0006,2025-08-21,IndiGo,Mumbai,Kolkata,Cancelled,98,19996.0,409,3986,Mobile App,Economy,A350,40
+FL0007,2025-10-01,Vistara,Mumbai,Dubai,On Time,114,39000.0,162,2954,Travel Agent,Economy,A321,15
+FL0008,2025-07-25,Akasa Air,Delhi,Bengaluru,Delayed,269,23122.0,158,2834,Airport Counter,Economy,Unknown,30
+FL0009,2025-05-16,SpiceJet,Bengaluru,Mumbai,Delayed,112,40811.0,269,3827,Website,Economy,B737,20
+FL0010,2025-09-18,SpiceJet,Delhi,Mumbai,Delayed,205,12984.0,455,2937,Airport Counter,Business,A320,30
+FL0011,2025-11-02,SpiceJet,Hyderabad,Mumbai, ON TIME ,47,10007.0,399,3774,Website,Premium Economy,Unknown,25
+FL0012,2025-05-31,Air India,Mumbai,Dubai,On Time,229,19761.0,306,3270,Mobile App,Business,A320,40
+FL0013,2025-11-24,Vistara,Mumbai,Kolkata, ON TIME ,86,37848.0,448,3928,Website,Economy,A350,25
+FL0014,2025-01-10,Air India,Kolkata,Hyderabad,Delayed,59,18285.0,499,2473,Website,Economy,Unknown,30
+FL0015,2025-09-30,SpiceJet,Mumbai,Dubai,Delayed,87,19870.0,320,3723,Website,Economy,A321,35
+FL0016,2025-12-20,Vistara,Hyderabad,Goa,Cancelled,211,26972.0,274,3834,Website,Economy,A320,20
+FL0017,2025-02-02,IndiGo,Chennai,Mumbai,Delayed,162,16932.0,53,440,Mobile App,Economy,A321,15
+FL0018,2025-06-19,Air India,Bengaluru,Hyderabad,Cancelled,169,16540.0,326,691,Mobile App,Business,A350,30
+FL0019,2025-08-31,Air India,Bengaluru,Mumbai,On Time,213,30749.0,231,1884,Airport Counter,Economy,Unknown,15
+FL0020,2025-12-01,Air India,Chennai,Goa,Cancelled,131,9661.0,177,934,Mobile App,Business,B787,20
+FL0021,2025-04-04,Akasa Air,Chennai,Bengaluru, ON TIME ,64,31541.0,463,3678,Website,Economy,A320,40
+FL0022,2025-01-08,Air India,Bengaluru,Chennai,On Time,169,34046.0,159,3691,Airport Counter,Economy,A321,30
+FL0023,2025-07-19,Akasa Air,Chennai,Hyderabad,On Time,223,38922.0,388,3092,Airport Counter,Business,A321,25
+FL0024,2025-01-30,IndiGo,Kolkata,Delhi,On Time,194,33746.0,307,3915,Website,Business,A320,35
+FL0025,2025-04-06,Air India,Delhi,Bengaluru,On Time,75,39834.0,176,2521,Website,Economy,A350,15
+FL0026,2025-12-03,IndiGo,Hyderabad,Bengaluru,Cancelled,228,23090.0,172,1237,Airport Counter,Business,Unknown,40
+FL0027,2025-02-13,IndiGo,Delhi,Dubai,Delayed,189,9052.0,87,2352,Mobile App,Business,B737,20
+FL0028,2025-02-05,Vistara,Kolkata,Hyderabad,Delayed,157,38100.0,410,1389,Website,Business,A320,40
+FL0029,2025-06-03,Air India,Mumbai,Hyderabad,On Time,272,9514.0,430,2416,Mobile App,Premium Economy,B737,35
+FL0030,2025-06-25,Vistara,Hyderabad,Mumbai,On Time,109,5829.0,97,2748,Airport Counter,Premium Economy,A320,15
+FL0031,2025-03-08,Akasa Air,Mumbai,Dubai,Delayed,225,30528.0,337,189,Website,Economy,Unknown,20
+FL0032,2025-07-18,IndiGo,Mumbai,Goa,Delayed,55,22702.0,236,3832,Website,Premium Economy,A321,40
+FL0033,2025-12-08,Air India,Kolkata,Mumbai, ON TIME ,149,12628.0,171,3691,Mobile App,Business,B787,15
+FL0034,2025-06-20,Air India,Bengaluru,Hyderabad,Delayed,246,9584.0,245,3722,Website,Economy,A321,20
+FL0035,2025-06-29,Akasa Air,Bengaluru,Delhi,Cancelled,94,28613.0,218,1291,Website,Premium Economy,B737,40
+FL0036,2025-07-24,IndiGo,Chennai,Mumbai,Cancelled,90,40549.0,185,306,Website,Business,B787,25
+FL0037,2025-06-10,Air India,Delhi,Goa,Delayed,93,19193.0,72,3053,Airport Counter,Economy,A350,35
+FL0038,2025-12-10,Vistara,Kolkata,Goa,On Time,215,24139.0,369,1435,Mobile App,Economy,Unknown,25
+FL0039,2025-06-08,Air India,Kolkata,Goa,Cancelled,120,38833.0,115,935,Airport Counter,Economy,Unknown,40
+FL0040,2025-11-12,Akasa Air,Pune,Mumbai, ON TIME ,45,22414.0,196,1010,Airport Counter,Business,A350,40
+FL0041,2025-08-27,SpiceJet,Chennai,Bengaluru,Delayed,166,13620.0,387,497,Travel Agent,Business,Unknown,40
+FL0042,2025-06-21,Air India,Bengaluru,Hyderabad,Delayed,251,15550.0,125,250,Website,Business,B787,35
+FL0043,2025-08-22,Air India,Bengaluru,Goa,On Time,162,18489.0,125,2837,Mobile App,Economy,A320,30
+FL0044,2025-04-01,SpiceJet,Chennai,Mumbai,Delayed,279,10453.0,283,696,Airport Counter,Business,A350,35
+FL0045,2025-08-15,Air India,Chennai,Dubai,On Time,111,18703.0,480,2761,Travel Agent,Business,B787,40
+FL0046,2025-02-13,SpiceJet,Delhi,Hyderabad,Delayed,114,24510.0,213,3807,Website,Economy,A321,20
+FL0047,2025-07-16,SpiceJet,Bengaluru,Mumbai,On Time,149,24184.0,327,2058,Airport Counter,Economy,A321,30
+FL0048,2025-10-27,IndiGo,Pune,Dubai,On Time,135,22069.0,435,1747,Airport Counter,Business,Unknown,40
+FL0049,2025-11-05,Vistara,Chennai,Bengaluru,Cancelled,156,34327.0,64,1742,Travel Agent,Economy,Unknown,20
+FL0050,2025-03-07,IndiGo,Pune,Delhi,On Time,209,30589.0,119,3700,Airport Counter,Business,A320,25
+FL0051,2025-06-17,Vistara,Chennai,Kolkata,Cancelled,239,27346.0,192,3230,Airport Counter,Premium Economy,A320,30
+FL0052,2025-10-04,IndiGo,Kolkata,Bengaluru,Cancelled,62,5138.0,436,277,Mobile App,Business,A320,35
+FL0053,2025-05-03,SpiceJet,Chennai,Mumbai,Delayed,100,32976.0,408,1199,Travel Agent,Business,A350,35
+FL0054,2025-02-28,SpiceJet,Hyderabad,Mumbai,Delayed,51,22944.0,344,2924,Airport Counter,Economy,Unknown,20
+FL0055,2025-10-31,Vistara,Delhi,Hyderabad, ON TIME ,220,41848.0,462,645,Website,Economy,B737,35
+FL0056,2025-12-05,IndiGo,Delhi,Mumbai,Cancelled,132,3329.0,484,1870,Airport Counter,Economy,B787,25
+FL0057,2025-08-24,SpiceJet,Pune,Chennai,Cancelled,178,20200.0,365,3460,Website,Economy,B787,30
+FL0058,2025-10-31,Akasa Air,Kolkata,Bengaluru, ON TIME ,67,20779.0,501,1996,Mobile App,Economy,A350,35
+FL0059,2025-07-14,IndiGo,Chennai,Dubai, ON TIME ,128,14417.0,299,1018,Travel Agent,Premium Economy,B737,25
+FL0060,2025-12-26,Akasa Air,Chennai,Mumbai,Delayed,66,18317.0,418,1814,Airport Counter,Business,Unknown,40
+FL0061,2025-11-27,SpiceJet,Chennai,Delhi,On Time,120,17022.0,257,2983,Mobile App,Premium Economy,Unknown,35
+FL0062,2025-08-31,IndiGo,Pune,Mumbai,Cancelled,135,32236.0,188,1405,Travel Agent,Business,A320,40
+FL0063,2025-06-11,Air India,Mumbai,Bengaluru,Delayed,162,34232.0,191,3117,Website,Business,A350,25
+FL0064,2025-04-10,Akasa Air,Bengaluru,Kolkata,Delayed,122,3427.0,412,2337,Mobile App,Premium Economy,A320,15
+FL0065,2025-05-30,SpiceJet,Chennai,Mumbai, ON TIME ,48,40121.0,195,2072,Airport Counter,Economy,B737,20
+FL0066,2025-05-10,SpiceJet,Delhi,Mumbai,On Time,170,7355.0,345,2728,Mobile App,Economy,Unknown,20
+FL0067,2025-06-05,Air India,Bengaluru,Mumbai,Delayed,240,29774.0,360,2591,Website,Business,A350,30
+FL0068,2025-08-15,Akasa Air,Pune,Hyderabad,Delayed,203,6447.0,362,4082,Mobile App,Economy,A321,40
+FL0069,2025-05-16,Air India,Mumbai,Bengaluru,Delayed,186,7419.0,130,160,Airport Counter,Economy,Unknown,35
+FL0070,2025-05-30,IndiGo,Bengaluru,Hyderabad,Cancelled,117,32255.0,86,2965,Mobile App,Premium Economy,Unknown,35
+FL0071,2025-04-12,Air India,Delhi,Mumbai,Delayed,210,12264.0,515,1238,Mobile App,Economy,A320,20
+FL0072,2025-11-01,Akasa Air,Chennai,Mumbai,On Time,221,22428.0,408,1798,Travel Agent,Business,A350,30
+FL0073,2025-02-11,IndiGo,Pune,Kolkata,Delayed,109,4195.0,96,1087,Mobile App,Business,A350,15
+FL0074,2025-05-18,IndiGo,Mumbai,Dubai,Delayed,211,31481.0,519,1289,Mobile App,Business,B787,40
+FL0075,2025-02-16,SpiceJet,Kolkata,Goa,Cancelled,127,9355.0,489,808,Travel Agent,Economy,Unknown,30
+FL0076,2025-12-06,Air India,Chennai,Dubai,On Time,125,19041.0,215,624,Airport Counter,Business,A320,40
+FL0077,2025-08-25,Air India,Chennai,Bengaluru,Delayed,137,35169.0,370,1960,Website,Business,B737,35
+FL0078,2025-05-28,SpiceJet,Chennai,Mumbai,On Time,206,18182.0,413,798,Travel Agent,Business,A320,35
+FL0079,2025-02-17,Vistara,Delhi,Dubai,On Time,210,12590.0,305,3970,Mobile App,Premium Economy,A350,40
+FL0080,2025-08-01,SpiceJet,Chennai,Bengaluru,On Time,186,22281.0,246,930,Website,Business,Unknown,20
+FL0081,2025-05-22,Air India,Kolkata,Mumbai,Cancelled,255,2668.0,194,3123,Travel Agent,Business,A350,40
+FL0082,2025-03-18,SpiceJet,Chennai,Kolkata,Cancelled,186,38114.0,243,2015,Travel Agent,Business,Unknown,20
+FL0083,2025-07-16,Vistara,Pune,Delhi,Cancelled,235,33496.0,411,3891,Airport Counter,Economy,Unknown,40
+FL0084,2025-09-11,IndiGo,Mumbai,Kolkata, ON TIME ,70,31355.0,101,2304,Airport Counter,Economy,Unknown,20
+FL0085,2025-12-02,SpiceJet,Delhi,Dubai, ON TIME ,112,24687.0,369,2987,Airport Counter,Economy,B737,40
+FL0086,2025-07-14,IndiGo,Chennai,Mumbai,On Time,203,6984.0,170,2735,Mobile App,Premium Economy,A321,40
+FL0087,2025-08-11,Air India,Delhi,Dubai,Delayed,222,22125.0,512,268,Website,Premium Economy,A320,25
+FL0088,2025-07-11,Air India,Mumbai,Bengaluru,Delayed,150,39588.0,399,3396,Mobile App,Business,A321,15
+FL0089,2025-07-15,Vistara,Chennai,Bengaluru,On Time,208,19144.0,285,1195,Mobile App,Economy,B787,25
+FL0090,2025-10-07,SpiceJet,Delhi,Dubai,Cancelled,195,22105.0,377,4090,Airport Counter,Premium Economy,B787,25
+FL0091,2025-07-16,SpiceJet,Delhi,Bengaluru,On Time,191,26024.0,344,1361,Mobile App,Premium Economy,A320,40
+FL0092,2025-05-21,IndiGo,Chennai,Dubai, ON TIME ,276,21256.0,447,3422,Mobile App,Business,B737,20
+FL0093,2025-04-08,Akasa Air,Mumbai,Delhi,Cancelled,246,31389.0,67,2523,Travel Agent,Business,A320,25
+FL0094,2025-08-01,SpiceJet,Bengaluru,Chennai, ON TIME ,183,26476.0,321,2205,Travel Agent,Business,B737,30
+FL0095,2025-06-23,Air India,Chennai,Mumbai,Delayed,238,17285.0,490,2920,Mobile App,Economy,A350,25
+FL0096,2025-07-22,IndiGo,Hyderabad,Mumbai,On Time,161,26655.0,394,3217,Mobile App,Premium Economy,A350,30
+FL0097,2025-07-10,Air India,Bengaluru,Dubai,On Time,203,39292.0,217,3898,Website,Business,Unknown,15
+FL0098,2025-08-26,Akasa Air,Pune,Mumbai,Delayed,56,4938.0,205,2167,Website,Economy,A321,35
+FL0099,2025-07-18,SpiceJet,Kolkata,Mumbai,On Time,195,12626.0,503,1849,Mobile App,Economy,B787,35
+FL0100,2025-05-24,IndiGo,Kolkata,Bengaluru,On Time,158,17973.0,487,1635,Website,Premium Economy,A350,40
+FL0101,2025-02-01,Air India,Hyderabad,Bengaluru,On Time,262,32300.0,96,2864,Mobile App,Business,A320,15
+FL0102,2025-05-05,SpiceJet,Bengaluru,Mumbai, ON TIME ,240,38820.0,156,2551,Mobile App,Business,B737,20
+FL0103,2025-01-02,Akasa Air,Mumbai,Chennai,Delayed,109,13935.0,106,2857,Website,Business,A320,25
+FL0104,2025-10-29,IndiGo,Chennai,Hyderabad,On Time,77,30088.0,319,615,Mobile App,Economy,B787,30
+FL0105,2025-09-20,Air India,Chennai,Mumbai,Delayed,202,5341.0,422,3358,Mobile App,Business,B737,30
+FL0106,2025-01-16,IndiGo,Chennai,Goa,On Time,220,9575.0,301,3067,Airport Counter,Economy,A320,25
+FL0107,2025-03-17,Air India,Mumbai,Hyderabad,Delayed,207,40862.0,330,3066,Travel Agent,Economy,A350,35
+FL0108,2025-08-21,Air India,Delhi,Mumbai, ON TIME ,212,38632.0,419,3695,Mobile App,Economy,B787,20
+FL0109,2025-07-12,SpiceJet,Pune,Goa,Cancelled,69,22983.0,268,1430,Mobile App,Premium Economy,B737,20
+FL0110,2025-08-31,Air India,Delhi,Mumbai,On Time,155,8828.0,431,3176,Travel Agent,Business,A350,15
+FL0111,2025-10-15,IndiGo,Delhi,Goa,Cancelled,268,30217.0,494,3901,Mobile App,Economy,B737,35
+FL0112,2025-06-30,Air India,Bengaluru,Chennai,Cancelled,168,17196.0,483,593,Travel Agent,Business,B737,15
+FL0113,2025-10-21,Vistara,Pune,Mumbai, ON TIME ,254,38986.0,63,2644,Mobile App,Premium Economy,A320,20
+FL0114,2025-12-26,Akasa Air,Kolkata,Delhi,Delayed,267,11888.0,339,2842,Airport Counter,Economy,A321,40
+FL0115,2025-01-16,Air India,Bengaluru,Goa,On Time,161,24840.0,130,1665,Travel Agent,Premium Economy,A350,35
+FL0116,2025-01-27,SpiceJet,Mumbai,Delhi,Cancelled,65,4500.0,276,2861,Airport Counter,Economy,A350,30
+FL0117,2025-05-20,Vistara,Delhi,Kolkata,On Time,73,21062.0,397,2929,Website,Economy,A350,40
+FL0118,2025-01-24,Vistara,Pune,Delhi,On Time,97,22253.0,158,3293,Mobile App,Premium Economy,B737,25
+FL0119,2025-01-04,SpiceJet,Pune,Chennai,Delayed,142,37403.0,410,1092,Website,Business,Unknown,25
+FL0120,2025-07-23,IndiGo,Pune,Delhi,On Time,280,7602.0,491,1432,Website,Economy,A350,30
+FL0121,2025-11-24,Air India,Hyderabad,Mumbai,On Time,50,23784.0,137,3432,Website,Economy,Unknown,25
+FL0122,2025-08-12,Air India,Bengaluru,Goa,Delayed,147,36838.0,90,1771,Travel Agent,Premium Economy,A321,25
+FL0123,2025-02-09,Air India,Bengaluru,Kolkata,Cancelled,231,12179.0,170,571,Mobile App,Premium Economy,A321,20
+FL0124,2025-03-20,Air India,Mumbai,Dubai,On Time,238,39444.0,439,2523,Airport Counter,Business,Unknown,40
+FL0125,2025-06-15,IndiGo,Mumbai,Dubai,On Time,165,31480.0,373,1390,Travel Agent,Business,A320,25
+FL0126,2025-02-07,Akasa Air,Chennai,Dubai,On Time,59,26665.0,475,1325,Website,Economy,A350,35
+FL0127,2025-07-16,SpiceJet,Chennai,Dubai, ON TIME ,191,14836.0,214,2628,Airport Counter,Business,A321,15
+FL0128,2025-02-22,IndiGo,Delhi,Mumbai,Cancelled,89,5065.0,176,3048,Airport Counter,Economy,A350,35
+FL0129,2025-03-23,IndiGo,Kolkata,Hyderabad,On Time,149,24675.0,397,2598,Website,Premium Economy,A320,25
+FL0130,2025-10-13,Air India,Hyderabad,Chennai,Cancelled,65,40690.0,389,729,Travel Agent,Premium Economy,Unknown,40
+FL0131,2025-07-20,SpiceJet,Delhi,Hyderabad,Delayed,141,24027.0,466,673,Mobile App,Business,A320,40
+FL0132,2025-08-05,IndiGo,Chennai,Kolkata,Cancelled,91,16537.0,224,4031,Airport Counter,Business,A321,20
+FL0133,2025-02-09,Akasa Air,Delhi,Mumbai, ON TIME ,183,37006.0,69,2861,Travel Agent,Business,A321,35
+FL0134,2025-03-20,SpiceJet,Mumbai,Chennai,Cancelled,157,5363.0,260,1642,Mobile App,Business,B787,35
+FL0135,2025-08-18,Vistara,Bengaluru,Hyderabad, ON TIME ,245,33237.0,512,3570,Mobile App,Premium Economy,Unknown,35
+FL0136,2025-08-25,Akasa Air,Pune,Mumbai,Delayed,152,13120.0,468,967,Website,Business,B737,15
+FL0137,2025-09-04,IndiGo,Delhi,Mumbai, ON TIME ,76,21181.0,92,3275,Mobile App,Premium Economy,B787,35
+FL0138,2025-08-12,Air India,Bengaluru,Dubai,Cancelled,51,29690.0,77,1773,Website,Premium Economy,A321,30
+FL0139,2025-07-11,Vistara,Chennai,Kolkata,On Time,259,24473.0,455,748,Mobile App,Economy,B737,30
+FL0140,2025-03-13,SpiceJet,Chennai,Delhi,On Time,49,19272.0,160,3570,Mobile App,Business,Unknown,35
+FL0141,2025-08-05,Air India,Hyderabad,Bengaluru,Cancelled,76,5629.0,172,1869,Mobile App,Business,B787,15
+FL0142,2025-09-13,IndiGo,Bengaluru,Chennai,Cancelled,154,2602.0,364,1595,Mobile App,Business,B787,20
+FL0143,2025-12-09,Air India,Kolkata,Mumbai,Delayed,184,35748.0,452,4198,Website,Business,A320,30
+FL0144,2025-01-23,Air India,Kolkata,Hyderabad,Cancelled,49,25902.0,453,426,Travel Agent,Business,Unknown,40
+FL0145,2025-02-23,IndiGo,Mumbai,Delhi,Cancelled,184,24687.0,466,2782,Mobile App,Economy,Unknown,30
+FL0146,2025-04-04,SpiceJet,Delhi,Dubai,On Time,120,15711.0,72,3390,Mobile App,Economy,B737,25
+FL0147,2025-07-23,SpiceJet,Hyderabad,Delhi, ON TIME ,210,15024.0,196,1612,Website,Premium Economy,B737,15
+FL0148,2025-08-12,Air India,Chennai,Goa,Cancelled,92,35019.0,404,2187,Travel Agent,Business,B737,15
+FL0149,2025-08-06,Air India,Pune,Chennai,Delayed,120,23550.0,102,477,Travel Agent,Premium Economy,B737,30
+FL0150,2025-08-07,SpiceJet,Chennai,Kolkata,On Time,55,25605.0,364,1931,Travel Agent,Economy,A320,40
+FL0151,2025-07-27,IndiGo,Mumbai,Delhi,Delayed,262,31216.0,67,667,Website,Business,Unknown,25
+FL0152,2025-07-16,IndiGo,Mumbai,Dubai,Cancelled,140,31594.0,440,464,Website,Business,A350,25
+FL0153,2025-06-10,Akasa Air,Bengaluru,Mumbai,On Time,233,14692.0,305,2270,Airport Counter,Business,A320,25
+FL0154,2025-02-13,SpiceJet,Bengaluru,Hyderabad,Cancelled,279,34691.0,152,652,Mobile App,Economy,B787,20
+FL0155,2025-08-16,Air India,Kolkata,Mumbai,Delayed,183,21529.0,506,1378,Mobile App,Business,B737,35
+FL0156,2025-03-04,Vistara,Mumbai,Bengaluru, ON TIME ,171,4222.0,234,2419,Website,Premium Economy,B787,35
+FL0157,2025-11-10,Air India,Delhi,Hyderabad,On Time,228,33869.0,319,1832,Airport Counter,Business,A320,20
+FL0158,2025-11-25,Air India,Chennai,Dubai,Cancelled,177,25078.0,115,3746,Website,Business,A321,20
+FL0159,2025-09-15,IndiGo,Delhi,Mumbai,Delayed,122,13290.0,132,1471,Mobile App,Business,B737,35
+FL0160,2025-02-10,Akasa Air,Bengaluru,Mumbai,Cancelled,77,22345.0,364,2335,Website,Business,Unknown,20
+FL0161,2025-10-25,SpiceJet,Mumbai,Kolkata, ON TIME ,189,5199.0,472,3688,Website,Economy,A320,40
+FL0162,2025-05-16,Vistara,Pune,Delhi,On Time,272,38254.0,198,2779,Travel Agent,Economy,A321,40
+FL0163,2025-06-02,SpiceJet,Delhi,Chennai,On Time,151,34235.0,287,985,Travel Agent,Business,A321,25
+FL0164,2025-06-13,IndiGo,Pune,Chennai, ON TIME ,139,36249.0,337,584,Travel Agent,Business,B787,15
+FL0165,2025-07-18,Vistara,Mumbai,Delhi,Cancelled,143,29902.0,177,4093,Mobile App,Premium Economy,A350,40
+FL0166,2025-04-08,SpiceJet,Chennai,Mumbai,On Time,172,22720.0,304,244,Website,Economy,A350,30
+FL0167,2025-04-21,IndiGo,Chennai,Delhi,Cancelled,171,41658.0,501,3602,Mobile App,Economy,B737,35
+FL0168,2025-02-25,Air India,Mumbai,Hyderabad,Cancelled,138,28927.0,237,335,Airport Counter,Economy,A350,35
+FL0169,2025-07-05,Akasa Air,Delhi,Goa,Delayed,160,38535.0,193,3530,Website,Business,A320,20
+FL0170,2025-07-21,IndiGo,Kolkata,Mumbai,Cancelled,238,11954.0,151,2617,Website,Economy,A350,15
+FL0171,2025-01-20,SpiceJet,Kolkata,Dubai,Delayed,161,12260.0,360,3808,Website,Business,B737,35
+FL0172,2025-03-25,Air India,Hyderabad,Kolkata,Delayed,257,35904.0,322,2156,Mobile App,Business,B737,30
+FL0173,2025-07-08,IndiGo,Delhi,Goa,Delayed,123,4246.0,355,2093,Travel Agent,Business,A350,20
+FL0174,2025-01-27,SpiceJet,Mumbai,Goa,Delayed,255,18372.0,66,2495,Mobile App,Economy,A321,15
+FL0175,2025-06-10,Air India,Mumbai,Goa,Cancelled,97,29394.0,306,3324,Website,Economy,Unknown,40
+FL0176,2025-12-28,SpiceJet,Bengaluru,Mumbai,Cancelled,214,33850.0,319,1693,Travel Agent,Business,B787,35
+FL0177,2025-10-07,IndiGo,Hyderabad,Dubai,Delayed,108,20784.0,335,1372,Mobile App,Premium Economy,B737,40
+FL0178,2025-12-20,SpiceJet,Kolkata,Dubai,Cancelled,188,20421.0,197,649,Website,Business,B787,30
+FL0179,2025-03-16,Akasa Air,Chennai,Hyderabad,Cancelled,65,25199.0,276,2836,Travel Agent,Economy,A321,20
+FL0180,2025-05-19,Akasa Air,Mumbai,Bengaluru,Delayed,57,37302.0,165,2763,Mobile App,Economy,A320,30
+FL0181,2025-08-30,Air India,Mumbai,Delhi,Delayed,85,29167.0,384,3979,Airport Counter,Economy,Unknown,20
+FL0182,2025-06-14,Akasa Air,Chennai,Mumbai,Cancelled,191,17718.0,323,3175,Mobile App,Economy,A321,30
+FL0183,2025-01-19,Air India,Chennai,Hyderabad,On Time,47,22055.0,340,2618,Website,Premium Economy,B737,30
+FL0184,2025-10-06,SpiceJet,Mumbai,Dubai,Cancelled,94,9882.0,219,815,Mobile App,Economy,Unknown,25
+FL0185,2025-04-06,IndiGo,Kolkata,Hyderabad,Delayed,217,15159.0,139,2652,Mobile App,Economy,Unknown,35
+FL0186,2025-02-14,Air India,Delhi,Chennai,Delayed,167,23707.0,177,177,Travel Agent,Economy,A321,30
+FL0187,2025-06-18,Akasa Air,Chennai,Hyderabad,Cancelled,137,17986.0,81,2885,Website,Economy,B737,20
+FL0188,2025-12-18,Akasa Air,Delhi,Hyderabad,Cancelled,202,16973.0,162,4071,Mobile App,Economy,A321,30
+FL0189,2025-11-07,IndiGo,Pune,Mumbai,On Time,238,37726.0,460,2870,Mobile App,Business,Unknown,35
+FL0190,2025-09-27,SpiceJet,Kolkata,Mumbai,Delayed,73,6547.0,474,2393,Website,Business,A350,35
+FL0191,2025-03-26,IndiGo,Chennai,Mumbai,Cancelled,97,40717.0,300,522,Website,Economy,A320,30
+FL0192,2025-09-20,Air India,Chennai,Delhi,Delayed,163,22696.0,420,239,Airport Counter,Premium Economy,A320,40
+FL0193,2025-10-24,Air India,Chennai,Goa,Cancelled,224,6678.0,327,396,Website,Economy,A320,25
+FL0194,2025-04-03,SpiceJet,Pune,Kolkata,On Time,159,27239.0,242,478,Mobile App,Business,A321,40
+FL0195,2025-03-02,SpiceJet,Pune,Mumbai,Delayed,231,17094.0,477,164,Website,Premium Economy,B787,40
+FL0196,2025-10-06,Air India,Pune,Bengaluru,Delayed,162,25185.0,129,1279,Mobile App,Economy,A320,40
+FL0197,2025-11-11,IndiGo,Bengaluru,Mumbai,On Time,197,4700.0,278,2598,Mobile App,Economy,A321,40
+FL0198,2025-07-25,SpiceJet,Bengaluru,Mumbai,Delayed,238,6199.0,121,2213,Travel Agent,Business,Unknown,35
+FL0199,2025-10-23,IndiGo,Bengaluru,Hyderabad,Delayed,214,36660.0,163,1843,Travel Agent,Premium Economy,A320,35
+FL0200,2025-03-31,Air India,Chennai,Delhi,Cancelled,209,27479.0,452,2298,Travel Agent,Economy,B787,20
+FL0201,2025-07-12,SpiceJet,Chennai,Bengaluru, ON TIME ,102,22209.0,489,3048,Mobile App,Economy,A320,35
+FL0202,2025-08-02,SpiceJet,Pune,Bengaluru,Cancelled,97,24144.0,381,473,Airport Counter,Premium Economy,A320,35
+FL0203,2025-04-08,IndiGo,Hyderabad,Goa,Cancelled,199,5091.0,497,448,Mobile App,Business,Unknown,40
+FL0204,2025-04-22,SpiceJet,Bengaluru,Kolkata,Cancelled,277,3504.0,158,3988,Mobile App,Economy,Unknown,30
+FL0205,2025-12-23,Vistara,Pune,Bengaluru,Delayed,127,21050.0,244,2059,Website,Premium Economy,B737,25
+FL0206,2025-09-20,SpiceJet,Chennai,Mumbai, ON TIME ,229,33268.0,439,3589,Travel Agent,Business,B737,25
+FL0207,2025-01-24,Vistara,Mumbai,Delhi,Cancelled,186,40775.0,346,3099,Airport Counter,Premium Economy,A321,20
+FL0208,2025-04-28,Air India,Bengaluru,Dubai,Delayed,212,24622.0,181,3276,Airport Counter,Economy,B787,20
+FL0209,2025-06-30,SpiceJet,Mumbai,Dubai,Delayed,279,4500.0,378,4070,Website,Business,A320,15
+FL0210,2025-01-25,IndiGo,Pune,Chennai, ON TIME ,206,17667.0,84,3046,Mobile App,Economy,A321,35
+FL0211,2025-07-11,IndiGo,Chennai,Dubai,On Time,46,37379.0,332,1834,Website,Economy,A350,40
+FL0212,2025-10-02,Akasa Air,Chennai,Mumbai, ON TIME ,223,30718.0,462,3999,Mobile App,Economy,A320,35
+FL0213,2025-05-04,Vistara,Hyderabad,Kolkata,Cancelled,248,28511.0,90,1678,Airport Counter,Economy,A350,20
+FL0214,2025-04-26,Akasa Air,Delhi,Mumbai,On Time,142,27218.0,332,2099,Website,Economy,Unknown,20
+FL0215,2025-09-13,Air India,Kolkata,Mumbai,Delayed,280,5288.0,167,1015,Mobile App,Business,B787,25
+FL0216,2025-02-08,Akasa Air,Chennai,Kolkata,On Time,98,40971.0,123,3231,Mobile App,Economy,A320,25
+FL0217,2025-10-16,Vistara,Pune,Mumbai,Cancelled,143,11671.0,454,4198,Mobile App,Economy,A350,40
+FL0218,2025-01-28,Air India,Pune,Bengaluru, ON TIME ,64,24821.0,359,3299,Website,Business,B787,25
+FL0219,2025-11-21,Akasa Air,Chennai,Dubai,Delayed,136,38743.0,242,1918,Mobile App,Business,Unknown,30
+FL0220,2025-11-13,Akasa Air,Bengaluru,Mumbai,On Time,113,12607.0,244,3065,Mobile App,Business,Unknown,30
+FL0221,2025-07-04,Air India,Delhi,Hyderabad,On Time,137,20179.0,102,692,Website,Business,B787,30
+FL0222,2025-10-12,Air India,Delhi,Mumbai,Cancelled,186,8599.0,355,2599,Travel Agent,Economy,A320,25
+FL0223,2025-07-18,Air India,Bengaluru,Mumbai,Delayed,220,27451.0,136,718,Travel Agent,Premium Economy,B737,30
+FL0224,2025-02-02,SpiceJet,Pune,Hyderabad,On Time,121,34234.0,450,465,Travel Agent,Premium Economy,Unknown,40
+FL0225,2025-09-11,Vistara,Chennai,Mumbai,Delayed,122,2943.0,252,1510,Website,Economy,B737,30
+FL0226,2025-08-09,SpiceJet,Hyderabad,Kolkata,Delayed,222,15663.0,295,1436,Mobile App,Economy,B737,25
+FL0227,2025-12-22,SpiceJet,Bengaluru,Kolkata,On Time,116,28251.0,236,616,Website,Business,A350,35
+FL0228,2025-12-16,IndiGo,Chennai,Bengaluru,On Time,249,21592.0,475,2987,Website,Economy,Unknown,30
+FL0229,2025-11-21,Akasa Air,Bengaluru,Hyderabad,Cancelled,84,30230.0,454,1694,Website,Economy,A350,30
+FL0230,2025-07-25,Air India,Chennai,Kolkata,Cancelled,274,37686.0,354,2763,Website,Economy,A321,40
+FL0231,2025-07-01,SpiceJet,Chennai,Goa, ON TIME ,129,30710.0,104,193,Website,Premium Economy,A321,35
+FL0232,2025-09-23,Vistara,Chennai,Kolkata,On Time,163,41073.0,403,2199,Mobile App,Premium Economy,A320,30
+FL0233,2025-06-01,Air India,Delhi,Mumbai, ON TIME ,231,11784.0,228,1427,Travel Agent,Economy,A321,35
+FL0234,2025-06-28,SpiceJet,Delhi,Dubai,Cancelled,162,32151.0,213,425,Travel Agent,Economy,Unknown,15
+FL0235,2025-06-25,Air India,Mumbai,Bengaluru,Delayed,89,38669.0,131,1505,Website,Economy,B787,20
+FL0236,2025-11-19,SpiceJet,Mumbai,Goa,On Time,52,15431.0,280,2575,Airport Counter,Economy,A320,40
+FL0237,2025-04-16,Akasa Air,Delhi,Mumbai, ON TIME ,268,37685.0,145,1648,Travel Agent,Business,B787,15
+FL0238,2025-12-10,SpiceJet,Kolkata,Goa,Delayed,145,40969.0,108,1575,Travel Agent,Economy,A350,20
+FL0239,2025-12-28,Akasa Air,Delhi,Chennai,Cancelled,75,18135.0,206,629,Mobile App,Premium Economy,Unknown,20
+FL0240,2025-07-18,Air India,Mumbai,Goa,On Time,92,34394.0,375,2351,Mobile App,Business,A350,20
+FL0241,2025-05-28,SpiceJet,Mumbai,Kolkata, ON TIME ,160,6013.0,493,1620,Website,Economy,A321,20
+FL0242,2025-10-15,SpiceJet,Pune,Dubai,On Time,226,31588.0,300,835,Website,Business,A320,20
+FL0243,2025-01-17,Akasa Air,Bengaluru,Mumbai,Cancelled,88,22281.0,339,3191,Airport Counter,Business,A350,15
+FL0244,2025-02-28,Akasa Air,Kolkata,Mumbai, ON TIME ,238,5226.0,439,3094,Airport Counter,Business,A321,30
+FL0245,2025-12-01,Vistara,Hyderabad,Delhi,On Time,112,25344.0,491,3495,Website,Economy,A320,20
+FL0246,2025-10-29,IndiGo,Pune,Chennai,Delayed,80,16041.0,466,997,Website,Business,B737,35
+FL0247,2025-11-02,SpiceJet,Kolkata,Hyderabad,Cancelled,191,20020.0,489,2257,Mobile App,Economy,A321,30
+FL0248,2025-05-22,SpiceJet,Mumbai,Bengaluru,Delayed,227,23608.0,474,1163,Mobile App,Economy,B787,20
+FL0249,2025-11-20,Akasa Air,Pune,Goa,On Time,64,8601.0,256,2261,Mobile App,Premium Economy,Unknown,25
+FL0250,2025-09-07,IndiGo,Chennai,Mumbai,Cancelled,162,25976.0,485,409,Website,Economy,A321,30
+FL0251,2025-09-11,Akasa Air,Kolkata,Hyderabad,Cancelled,185,40375.0,116,2468,Airport Counter,Premium Economy,Unknown,15
+FL0252,2025-02-20,SpiceJet,Chennai,Mumbai, ON TIME ,85,31420.0,283,152,Airport Counter,Business,Unknown,20
+FL0253,2025-06-04,SpiceJet,Hyderabad,Mumbai,Cancelled,137,18909.0,92,1673,Mobile App,Business,A320,30
+FL0254,2025-06-06,Vistara,Pune,Mumbai,Cancelled,69,2571.0,159,2103,Website,Business,A350,20
+FL0255,2025-12-15,SpiceJet,Chennai,Delhi,Cancelled,132,10403.0,490,1879,Mobile App,Business,B787,15
+FL0256,2025-07-16,Air India,Delhi,Mumbai,Cancelled,139,22111.0,120,1717,Mobile App,Business,A320,35
+FL0257,2025-01-05,SpiceJet,Chennai,Kolkata,Cancelled,99,12420.0,520,1836,Website,Economy,A321,15
+FL0258,2025-03-13,Air India,Pune,Kolkata,On Time,125,11663.0,176,1284,Mobile App,Economy,A321,35
+FL0259,2025-11-04,Akasa Air,Chennai,Hyderabad,Delayed,177,35892.0,146,3213,Airport Counter,Premium Economy,Unknown,15
+FL0260,2025-09-11,Air India,Delhi,Bengaluru,On Time,208,41423.0,86,2313,Website,Premium Economy,B737,20
+FL0261,2025-10-19,Air India,Kolkata,Mumbai,Cancelled,89,33368.0,444,448,Website,Business,A320,15
+FL0262,2025-04-21,IndiGo,Chennai,Goa,Delayed,118,35336.0,442,1851,Airport Counter,Economy,A320,40
+FL0263,2025-10-03,SpiceJet,Hyderabad,Mumbai,Cancelled,65,36008.0,154,4140,Mobile App,Business,B737,30
+FL0264,2025-11-21,Air India,Hyderabad,Goa,Cancelled,162,18139.0,79,1151,Website,Economy,A320,30
+FL0265,2025-11-08,IndiGo,Hyderabad,Chennai,On Time,48,11492.0,409,196,Mobile App,Economy,Unknown,35
+FL0266,2025-05-13,SpiceJet,Kolkata,Chennai,Cancelled,162,20113.0,425,3780,Website,Economy,Unknown,30
+FL0267,2025-09-26,Air India,Hyderabad,Mumbai,On Time,161,35974.0,234,377,Airport Counter,Business,A321,25
+FL0268,2025-05-11,Air India,Delhi,Bengaluru,Cancelled,175,2668.0,72,3667,Website,Business,A320,30
+FL0269,2025-07-16,SpiceJet,Mumbai,Delhi,Delayed,250,29983.0,164,1468,Mobile App,Economy,Unknown,25
+FL0270,2025-02-09,IndiGo,Delhi,Mumbai,Cancelled,275,5951.0,141,1064,Website,Economy,B787,15
+FL0271,2025-05-25,Akasa Air,Kolkata,Mumbai,Delayed,161,3022.0,238,971,Travel Agent,Business,B737,40
+FL0272,2025-05-05,SpiceJet,Kolkata,Dubai, ON TIME ,243,15307.0,425,3838,Website,Business,A321,15
+FL0273,2025-01-13,Vistara,Kolkata,Delhi,Cancelled,45,27159.0,484,3173,Mobile App,Premium Economy,A320,20
+FL0274,2025-05-02,Air India,Chennai,Delhi,Delayed,227,20838.0,97,329,Mobile App,Business,B787,40
+FL0275,2025-08-23,Air India,Delhi,Mumbai,Delayed,208,28344.0,88,2574,Website,Economy,B787,40
+FL0276,2025-05-02,Akasa Air,Hyderabad,Kolkata, ON TIME ,145,23881.0,212,2004,Travel Agent,Business,A320,20
+FL0277,2025-10-27,Air India,Mumbai,Chennai,On Time,164,23080.0,258,644,Website,Premium Economy,A321,30
+FL0278,2025-08-26,Akasa Air,Delhi,Mumbai,Delayed,251,22437.0,473,3036,Mobile App,Business,A320,20
+FL0279,2025-03-17,Air India,Bengaluru,Kolkata,On Time,176,5708.0,396,1374,Travel Agent,Business,A320,30
+FL0280,2025-10-12,Vistara,Delhi,Dubai,On Time,250,11661.0,112,198,Website,Business,A321,20
+FL0281,2025-07-10,Air India,Hyderabad,Mumbai,On Time,61,15459.0,512,2795,Airport Counter,Business,A320,25
+FL0282,2025-01-22,SpiceJet,Chennai,Goa, ON TIME ,230,28386.0,304,270,Airport Counter,Economy,A321,25
+FL0283,2025-04-06,Akasa Air,Hyderabad,Dubai,Delayed,53,18607.0,381,1358,Airport Counter,Economy,Unknown,30
+FL0284,2025-02-14,Akasa Air,Pune,Chennai,On Time,96,36959.0,177,2733,Website,Economy,Unknown,40
+FL0285,2025-09-03,SpiceJet,Kolkata,Mumbai,Cancelled,144,20223.0,142,256,Travel Agent,Business,A321,15
+FL0286,2025-01-30,SpiceJet,Kolkata,Bengaluru,Delayed,70,18743.0,386,1137,Travel Agent,Business,Unknown,15
+FL0287,2025-10-22,Air India,Kolkata,Chennai,Delayed,105,41331.0,212,3452,Mobile App,Premium Economy,A350,15
+FL0288,2025-12-25,IndiGo,Mumbai,Bengaluru, ON TIME ,252,34758.0,327,1415,Mobile App,Economy,A320,15
+FL0289,2025-04-30,Vistara,Chennai,Mumbai,On Time,45,24240.0,519,2665,Mobile App,Business,B737,40
+FL0290,2025-06-15,IndiGo,Chennai,Mumbai, ON TIME ,179,26413.0,87,1680,Mobile App,Economy,A350,15
+FL0291,2025-06-04,IndiGo,Mumbai,Chennai,Cancelled,156,34429.0,382,1449,Mobile App,Business,Unknown,35
+FL0292,2025-04-25,SpiceJet,Pune,Hyderabad,Cancelled,221,21801.0,115,877,Mobile App,Economy,Unknown,35
+FL0293,2025-10-18,IndiGo,Mumbai,Kolkata, ON TIME ,201,16976.0,377,2466,Website,Economy,A321,25
+FL0294,2025-02-09,Vistara,Kolkata,Chennai,Cancelled,271,8314.0,470,3053,Mobile App,Premium Economy,B787,15
+FL0295,2025-04-18,Vistara,Delhi,Kolkata,Cancelled,246,9580.0,418,155,Website,Economy,B787,40
+FL0296,2025-03-27,Air India,Chennai,Goa,Cancelled,184,27098.0,101,3544,Airport Counter,Business,Unknown,40
+FL0297,2025-03-25,SpiceJet,Delhi,Hyderabad,On Time,126,19613.0,103,453,Travel Agent,Business,B787,20
+FL0298,2025-07-12,Air India,Kolkata,Dubai,Cancelled,52,30767.0,384,825,Website,Economy,A321,15
+FL0299,2025-06-19,Vistara,Bengaluru,Goa,Cancelled,186,37897.0,185,2855,Travel Agent,Premium Economy,A321,15
+FL0300,2025-07-21,SpiceJet,Mumbai,Delhi,Cancelled,45,30523.0,94,1356,Mobile App,Business,B787,20
+FL0301,2025-01-14,Vistara,Mumbai,Hyderabad,On Time,166,10069.0,207,3364,Airport Counter,Economy,B787,40
+FL0302,2025-07-18,Air India,Mumbai,Kolkata,On Time,139,14727.0,278,332,Travel Agent,Economy,B787,25
+FL0303,2025-05-18,IndiGo,Mumbai,Kolkata, ON TIME ,183,29631.0,437,2565,Mobile App,Business,A320,30
+FL0304,2025-08-03,SpiceJet,Bengaluru,Dubai,Cancelled,65,28373.0,512,3647,Mobile App,Economy,A350,35
+FL0305,2025-10-20,SpiceJet,Delhi,Dubai,Delayed,87,16386.0,463,939,Mobile App,Economy,B787,15
+FL0306,2025-08-11,Vistara,Mumbai,Hyderabad,Cancelled,278,6891.0,94,1739,Website,Economy,A350,25
+FL0307,2025-09-24,SpiceJet,Chennai,Mumbai, ON TIME ,152,9874.0,262,762,Mobile App,Business,A350,35
+FL0308,2025-02-24,Air India,Hyderabad,Mumbai,Cancelled,269,29428.0,185,1718,Mobile App,Economy,A350,35
+FL0309,2025-01-20,SpiceJet,Hyderabad,Goa,Delayed,203,28827.0,69,1771,Travel Agent,Business,A320,40
+FL0310,2025-05-18,IndiGo,Chennai,Kolkata, ON TIME ,248,22361.0,209,1298,Airport Counter,Economy,A321,20
+FL0311,2025-08-15,IndiGo,Hyderabad,Goa,Delayed,210,8351.0,146,1959,Mobile App,Economy,Unknown,30
+FL0312,2025-07-11,IndiGo,Mumbai,Hyderabad,Cancelled,174,28936.0,119,3346,Website,Business,A320,20
+FL0313,2025-04-13,IndiGo,Bengaluru,Delhi,On Time,57,26117.0,410,965,Travel Agent,Premium Economy,B787,35
+FL0314,2025-11-22,Air India,Chennai,Bengaluru,Cancelled,170,41431.0,278,877,Airport Counter,Business,A350,25
+FL0315,2025-03-25,Akasa Air,Delhi,Hyderabad,On Time,143,5753.0,133,3647,Website,Business,A321,40
+FL0316,2025-12-13,Vistara,Hyderabad,Goa,Delayed,50,3083.0,292,3883,Mobile App,Business,A350,15
+FL0317,2025-05-10,Akasa Air,Hyderabad,Goa,On Time,263,25353.0,285,1182,Mobile App,Economy,B737,40
+FL0318,2025-11-16,Air India,Delhi,Mumbai,Cancelled,260,27025.0,337,2801,Website,Business,B737,25
+FL0319,2025-02-25,SpiceJet,Delhi,Kolkata,Cancelled,208,23808.0,491,1284,Travel Agent,Premium Economy,A321,20
+FL0320,2025-05-04,IndiGo,Pune,Kolkata,Cancelled,80,4168.0,385,2187,Travel Agent,Premium Economy,B787,30
+FL0321,2025-01-19,Vistara,Kolkata,Bengaluru,Cancelled,181,33677.0,514,4002,Mobile App,Premium Economy,A350,25
+FL0322,2025-12-03,SpiceJet,Hyderabad,Mumbai,On Time,77,19451.0,421,3460,Website,Business,Unknown,25
+FL0323,2025-02-15,Vistara,Kolkata,Bengaluru,Cancelled,268,22625.0,265,3378,Travel Agent,Premium Economy,B737,35
+FL0324,2025-08-26,Air India,Chennai,Delhi, ON TIME ,207,40745.0,347,4017,Website,Economy,B787,20
+FL0325,2025-03-03,Air India,Hyderabad,Goa,On Time,162,12381.0,120,970,Travel Agent,Economy,A350,30
+FL0326,2025-06-11,SpiceJet,Delhi,Dubai,Cancelled,206,14088.0,210,2748,Website,Economy,B787,25
+FL0327,2025-03-28,SpiceJet,Chennai,Mumbai,Delayed,202,30923.0,374,1908,Airport Counter,Economy,B787,30
+FL0328,2025-01-20,Vistara,Kolkata,Delhi,Cancelled,238,37301.0,147,223,Mobile App,Economy,Unknown,40
+FL0329,2025-04-26,IndiGo,Hyderabad,Chennai,On Time,143,35486.0,351,1403,Mobile App,Economy,A320,25
+FL0330,2025-08-22,IndiGo,Pune,Chennai,Cancelled,275,34624.0,233,3222,Mobile App,Business,B787,15
+FL0331,2025-04-25,SpiceJet,Bengaluru,Delhi,Delayed,174,13574.0,113,1651,Mobile App,Economy,B787,40
+FL0332,2025-10-01,IndiGo,Chennai,Mumbai,Cancelled,259,3793.0,74,2975,Website,Economy,B787,30
+FL0333,2025-10-08,Akasa Air,Chennai,Bengaluru,Cancelled,220,3109.0,204,1873,Mobile App,Economy,Unknown,35
+FL0334,2025-11-15,SpiceJet,Pune,Mumbai,Delayed,229,4500.0,194,616,Website,Economy,A321,35
+FL0335,2025-05-15,Vistara,Kolkata,Goa,Cancelled,86,5082.0,330,2183,Mobile App,Economy,B737,20
+FL0336,2025-01-07,Air India,Delhi,Dubai,Delayed,68,36035.0,88,3113,Mobile App,Economy,B737,40
+FL0337,2025-08-22,Akasa Air,Hyderabad,Dubai,On Time,70,13949.0,497,311,Travel Agent,Premium Economy,Unknown,25
+FL0338,2025-03-01,Air India,Chennai,Delhi, ON TIME ,80,13674.0,218,1614,Airport Counter,Business,B737,40
+FL0339,2025-07-10,IndiGo,Mumbai,Goa,On Time,161,20314.0,477,1729,Mobile App,Economy,B787,40
+FL0340,2025-02-27,SpiceJet,Chennai,Mumbai,On Time,278,41215.0,297,3436,Website,Economy,A321,35
+FL0341,2025-07-03,IndiGo,Mumbai,Dubai,On Time,73,29453.0,275,338,Website,Premium Economy,Unknown,25
+FL0342,2025-12-27,Vistara,Kolkata,Mumbai,Delayed,221,8741.0,271,2860,Mobile App,Business,B787,25
+FL0343,2025-12-13,Air India,Mumbai,Delhi,On Time,209,12784.0,308,3626,Airport Counter,Economy,A321,15
+FL0344,2025-06-14,Vistara,Kolkata,Hyderabad,On Time,174,17095.0,331,2785,Airport Counter,Economy,A321,15
+FL0345,2025-08-16,SpiceJet,Delhi,Dubai,On Time,125,10279.0,304,3202,Mobile App,Economy,A320,30
+FL0346,2025-01-19,IndiGo,Delhi,Hyderabad,Delayed,188,16056.0,385,2900,Airport Counter,Premium Economy,B737,15
+FL0347,2025-08-21,IndiGo,Chennai,Kolkata,Cancelled,160,9972.0,99,3260,Mobile App,Business,A320,25
+FL0348,2025-11-21,Akasa Air,Kolkata,Mumbai,On Time,274,13258.0,302,725,Mobile App,Economy,A320,25
+FL0349,2025-04-11,Vistara,Delhi,Goa,Delayed,162,14989.0,416,1534,Website,Economy,A320,40
+FL0350,2025-10-29,Air India,Chennai,Dubai,Cancelled,195,35543.0,118,4097,Airport Counter,Economy,A350,40
+FL0351,2025-10-11,Air India,Chennai,Mumbai, ON TIME ,280,14113.0,404,2519,Mobile App,Business,A320,30
+FL0352,2025-11-04,IndiGo,Pune,Goa,Delayed,279,18768.0,190,1779,Travel Agent,Premium Economy,B787,20
+FL0353,2025-07-31,Akasa Air,Kolkata,Mumbai,Cancelled,100,15665.0,157,2706,Mobile App,Premium Economy,Unknown,25
+FL0354,2025-03-09,SpiceJet,Kolkata,Mumbai, ON TIME ,135,39349.0,295,2537,Website,Economy,Unknown,40
+FL0355,2025-05-27,Air India,Chennai,Mumbai,On Time,51,27460.0,124,367,Mobile App,Economy,A321,25
+FL0356,2025-05-27,Akasa Air,Mumbai,Delhi,Cancelled,245,21842.0,154,3236,Website,Economy,B737,30
+FL0357,2025-11-12,Vistara,Pune,Bengaluru,Delayed,245,21350.0,404,2871,Website,Economy,B787,30
+FL0358,2025-06-10,IndiGo,Chennai,Hyderabad,Delayed,203,31536.0,474,1073,Mobile App,Premium Economy,A350,35
+FL0359,2025-11-05,Vistara,Bengaluru,Hyderabad,On Time,90,7380.0,145,4092,Mobile App,Business,A320,30
+FL0360,2025-08-08,Akasa Air,Hyderabad,Chennai,Delayed,194,19212.0,52,1503,Airport Counter,Business,A320,20
+FL0361,2025-11-02,IndiGo,Hyderabad,Dubai, ON TIME ,191,38555.0,233,448,Mobile App,Premium Economy,A350,20
+FL0362,2025-09-24,Air India,Mumbai,Goa,Delayed,182,28938.0,97,1581,Mobile App,Business,Unknown,25
+FL0363,2025-07-04,Akasa Air,Bengaluru,Mumbai,On Time,188,3076.0,108,2889,Travel Agent,Economy,A321,40
+FL0364,2025-11-15,Vistara,Chennai,Kolkata,On Time,279,9930.0,247,1200,Website,Premium Economy,A320,35
+FL0365,2025-09-21,SpiceJet,Chennai,Delhi,Cancelled,274,15116.0,214,2254,Website,Economy,A321,35
+FL0366,2025-01-04,Air India,Bengaluru,Goa, ON TIME ,71,15972.0,325,3544,Mobile App,Economy,Unknown,15
+FL0367,2025-12-18,SpiceJet,Chennai,Dubai,Cancelled,129,4982.0,94,450,Website,Business,B737,35
+FL0368,2025-10-22,Vistara,Hyderabad,Goa,On Time,160,29005.0,271,1445,Website,Economy,Unknown,15
+FL0369,2025-01-04,Air India,Chennai,Mumbai,Cancelled,173,9455.0,198,3373,Mobile App,Premium Economy,A350,15
+FL0370,2025-08-13,Air India,Pune,Delhi,On Time,85,37461.0,162,708,Mobile App,Economy,A350,25
+FL0371,2025-03-15,Akasa Air,Kolkata,Delhi,Delayed,268,38877.0,122,654,Website,Economy,A350,35
+FL0372,2025-10-03,Air India,Hyderabad,Bengaluru,Cancelled,234,25034.0,158,1840,Mobile App,Business,A321,20
+FL0373,2025-04-24,Akasa Air,Bengaluru,Mumbai,Delayed,216,39678.0,486,372,Website,Economy,Unknown,35
+FL0374,2025-05-29,Air India,Hyderabad,Mumbai,Delayed,230,40549.0,299,4047,Travel Agent,Premium Economy,A321,40
+FL0375,2025-05-01,Air India,Hyderabad,Mumbai,Delayed,126,34341.0,280,1494,Website,Premium Economy,Unknown,35
+FL0376,2025-10-17,IndiGo,Kolkata,Goa,Delayed,46,23026.0,176,3368,Mobile App,Economy,B737,25
+FL0377,2025-12-14,IndiGo,Chennai,Dubai,On Time,136,22519.0,299,2409,Website,Business,Unknown,35
+FL0378,2025-07-12,SpiceJet,Bengaluru,Hyderabad,Cancelled,271,7511.0,422,458,Website,Business,Unknown,15
+FL0379,2025-10-24,Air India,Bengaluru,Delhi,Delayed,111,38116.0,507,2360,Airport Counter,Business,B737,30
+FL0380,2025-10-29,Akasa Air,Mumbai,Dubai,Delayed,175,8434.0,253,1640,Website,Economy,Unknown,20
+FL0381,2025-12-17,SpiceJet,Mumbai,Dubai,Delayed,90,3500.0,339,2850,Mobile App,Economy,B737,15
+FL0382,2025-09-07,Vistara,Delhi,Hyderabad,Cancelled,104,5305.0,392,996,Website,Premium Economy,B787,30
+FL0383,2025-01-24,IndiGo,Kolkata,Mumbai,Cancelled,178,20423.0,477,3188,Travel Agent,Business,A350,35
+FL0384,2025-02-13,Air India,Kolkata,Mumbai,Delayed,109,27163.0,514,1062,Website,Economy,B737,25
+FL0385,2025-09-04,IndiGo,Mumbai,Dubai,Delayed,103,7552.0,313,2785,Travel Agent,Business,A321,20
+FL0386,2025-07-05,Air India,Bengaluru,Goa, ON TIME ,129,9927.0,296,2915,Airport Counter,Economy,A321,35
+FL0387,2025-11-28,Air India,Chennai,Bengaluru,On Time,77,40084.0,353,809,Mobile App,Business,A320,35
+FL0388,2025-01-29,SpiceJet,Hyderabad,Chennai,Delayed,148,41779.0,338,2761,Website,Premium Economy,A320,20
+FL0389,2025-11-07,SpiceJet,Chennai,Bengaluru, ON TIME ,150,41876.0,123,3404,Website,Business,A350,40
+FL0390,2025-05-16,SpiceJet,Kolkata,Dubai,Delayed,196,7011.0,167,1699,Airport Counter,Business,A320,15
+FL0391,2025-09-25,Air India,Mumbai,Chennai,On Time,275,41809.0,69,3745,Website,Business,A320,15
+FL0392,2025-12-04,SpiceJet,Chennai,Goa,Delayed,152,26773.0,497,327,Mobile App,Business,B787,20
+FL0393,2025-07-15,IndiGo,Delhi,Goa,Delayed,110,33769.0,442,1102,Website,Premium Economy,A350,35
+FL0394,2025-05-12,Vistara,Chennai,Delhi,Delayed,178,10222.0,316,179,Airport Counter,Business,Unknown,25
+FL0395,2025-07-05,Air India,Mumbai,Goa,Cancelled,194,19122.0,183,3651,Website,Economy,A350,25
+FL0396,2025-05-22,Air India,Bengaluru,Goa,Delayed,245,39040.0,297,882,Travel Agent,Business,A350,30
+FL0397,2025-06-07,IndiGo,Pune,Chennai, ON TIME ,266,10304.0,432,1091,Airport Counter,Business,A320,20
+FL0398,2025-07-25,IndiGo,Chennai,Goa,Cancelled,46,8469.0,471,745,Airport Counter,Business,B787,15
+FL0399,2025-05-15,Vistara,Kolkata,Mumbai,Delayed,54,27687.0,255,2664,Mobile App,Business,B737,40
+FL0400,2025-01-30,SpiceJet,Chennai,Dubai,On Time,96,36457.0,196,947,Website,Business,A350,35
+FL0401,2025-04-29,SpiceJet,Chennai,Kolkata,Delayed,212,2518.0,130,505,Travel Agent,Economy,B737,40
+FL0402,2025-07-27,Vistara,Chennai,Mumbai,On Time,185,21144.0,421,3548,Website,Business,B737,25
+FL0403,2025-04-26,Vistara,Chennai,Goa,Delayed,46,19611.0,139,1817,Website,Economy,A350,15
+FL0404,2025-05-31,IndiGo,Delhi,Mumbai,Cancelled,269,37752.0,466,3399,Website,Premium Economy,Unknown,30
+FL0405,2025-10-16,SpiceJet,Bengaluru,Kolkata, ON TIME ,162,32693.0,509,2553,Website,Economy,A320,25
+FL0406,2025-07-15,Vistara,Bengaluru,Kolkata,On Time,135,36349.0,324,189,Mobile App,Premium Economy,A321,25
+FL0407,2025-07-24,IndiGo,Delhi,Mumbai,Delayed,166,23069.0,231,1045,Website,Premium Economy,A321,40
+FL0408,2025-04-08,SpiceJet,Bengaluru,Hyderabad,Delayed,103,15788.0,477,1172,Website,Premium Economy,A321,15
+FL0409,2025-02-10,SpiceJet,Chennai,Mumbai,On Time,262,34107.0,240,2692,Travel Agent,Economy,A350,25
+FL0410,2025-04-04,Akasa Air,Pune,Bengaluru, ON TIME ,192,10904.0,77,2303,Airport Counter,Economy,A350,15
+FL0411,2025-06-27,Air India,Mumbai,Dubai,On Time,223,36461.0,285,1442,Mobile App,Economy,A320,40
+FL0412,2025-07-14,Air India,Kolkata,Hyderabad,Delayed,185,19726.0,171,1253,Airport Counter,Business,B737,25
+FL0413,2025-09-13,Air India,Bengaluru,Goa,Cancelled,237,26899.0,236,3649,Airport Counter,Premium Economy,B787,20
+FL0414,2025-03-09,Vistara,Delhi,Hyderabad, ON TIME ,105,38894.0,271,3657,Airport Counter,Business,A321,40
+FL0415,2025-08-31,IndiGo,Mumbai,Goa,On Time,79,36382.0,323,3101,Travel Agent,Economy,B737,25
+FL0416,2025-10-18,IndiGo,Pune,Mumbai,Cancelled,86,6434.0,160,3483,Travel Agent,Economy,Unknown,15
+FL0417,2025-06-21,Akasa Air,Kolkata,Mumbai,Delayed,252,19389.0,226,231,Airport Counter,Economy,B737,40
+FL0418,2025-04-12,SpiceJet,Hyderabad,Kolkata,Cancelled,217,35952.0,299,3323,Mobile App,Economy,A320,30
+FL0419,2025-05-27,SpiceJet,Mumbai,Chennai,Cancelled,251,24611.0,265,2735,Website,Business,Unknown,15
+FL0420,2025-03-24,IndiGo,Bengaluru,Kolkata,Cancelled,212,21594.0,413,1245,Website,Economy,B737,30
+FL0421,2025-10-28,SpiceJet,Pune,Chennai,Delayed,263,4013.0,114,3130,Mobile App,Premium Economy,Unknown,40
+FL0422,2025-02-10,Vistara,Mumbai,Goa,On Time,69,6680.0,499,2088,Website,Economy,A320,30
+FL0423,2025-02-12,Air India,Hyderabad,Chennai,On Time,212,28048.0,208,1089,Mobile App,Premium Economy,B787,40
+FL0424,2025-03-09,SpiceJet,Chennai,Delhi,Cancelled,136,23812.0,492,2100,Airport Counter,Business,B737,35
+FL0425,2025-03-11,SpiceJet,Chennai,Goa,Delayed,208,37482.0,208,3872,Travel Agent,Economy,A350,20
+FL0426,2025-08-15,Akasa Air,Kolkata,Goa,Cancelled,84,3500.0,55,150,Website,Business,B737,25
+FL0427,2025-10-01,IndiGo,Chennai,Dubai,Cancelled,47,30709.0,458,1349,Website,Business,A320,35
+FL0428,2025-04-07,Air India,Pune,Goa,Delayed,86,28040.0,474,1699,Mobile App,Premium Economy,A320,30
+FL0429,2025-05-03,Akasa Air,Hyderabad,Mumbai, ON TIME ,113,29560.0,146,3645,Website,Business,A321,25
+FL0430,2025-11-23,SpiceJet,Chennai,Hyderabad,Cancelled,204,34743.0,146,1463,Website,Business,A320,35
+FL0431,2025-04-06,Air India,Hyderabad,Chennai,Cancelled,157,3037.0,169,519,Mobile App,Economy,B787,20
+FL0432,2025-08-04,Akasa Air,Chennai,Kolkata,On Time,223,4579.0,219,478,Mobile App,Economy,B737,30
+FL0433,2025-10-06,SpiceJet,Mumbai,Bengaluru, ON TIME ,109,27507.0,474,201,Website,Business,B787,30
+FL0434,2025-01-18,Vistara,Chennai,Mumbai,Delayed,215,16160.0,292,1743,Mobile App,Premium Economy,B737,20
+FL0435,2025-01-22,Air India,Hyderabad,Dubai,Cancelled,121,15523.0,234,3785,Website,Business,A320,20
+FL0436,2025-08-11,IndiGo,Chennai,Hyderabad,Delayed,75,28439.0,454,1145,Website,Economy,A350,40
+FL0437,2025-12-19,SpiceJet,Kolkata,Mumbai,Delayed,85,35262.0,96,2959,Website,Premium Economy,Unknown,15
+FL0438,2025-07-02,SpiceJet,Delhi,Chennai,On Time,104,23257.0,335,3379,Mobile App,Premium Economy,B787,40
+FL0439,2025-01-11,Air India,Kolkata,Chennai,Cancelled,275,5087.0,298,3044,Airport Counter,Business,B737,35
+FL0440,2025-09-08,Vistara,Mumbai,Kolkata,Cancelled,232,33196.0,190,3703,Website,Business,A321,15
+FL0441,2025-03-21,SpiceJet,Hyderabad,Mumbai,Cancelled,161,2547.0,447,2763,Website,Economy,Unknown,20
+FL0442,2025-11-14,IndiGo,Bengaluru,Kolkata,Cancelled,61,37821.0,469,1737,Mobile App,Business,Unknown,30
+FL0443,2025-03-20,Akasa Air,Kolkata,Goa,Cancelled,127,9739.0,99,2293,Mobile App,Economy,A320,20
+FL0444,2025-01-17,Vistara,Delhi,Dubai,Delayed,70,4585.0,342,2778,Airport Counter,Economy,A350,35
+FL0445,2025-10-30,Akasa Air,Chennai,Kolkata,Delayed,200,7144.0,56,3960,Mobile App,Economy,A320,30
+FL0446,2025-02-01,IndiGo,Pune,Kolkata, ON TIME ,226,6320.0,471,2676,Travel Agent,Business,A320,40
+FL0447,2025-06-05,Air India,Bengaluru,Mumbai,On Time,70,17639.0,322,1728,Mobile App,Business,A350,40
+FL0448,2025-10-19,SpiceJet,Pune,Mumbai, ON TIME ,208,40285.0,233,2912,Airport Counter,Economy,A320,20
+FL0449,2025-10-09,Air India,Kolkata,Chennai,Delayed,198,31533.0,230,3846,Travel Agent,Business,B737,25
+FL0450,2025-11-21,Air India,Kolkata,Bengaluru,Delayed,184,16519.0,242,3286,Website,Premium Economy,B737,30
+FL0451,2025-07-23,IndiGo,Chennai,Hyderabad,Delayed,49,36422.0,119,3796,Travel Agent,Economy,B737,20
+FL0452,2025-06-11,IndiGo,Hyderabad,Mumbai,Delayed,187,39899.0,342,783,Website,Economy,Unknown,25
+FL0453,2025-03-12,Akasa Air,Kolkata,Bengaluru,Delayed,110,22180.0,97,2486,Airport Counter,Business,A321,40
+FL0454,2025-06-16,SpiceJet,Mumbai,Dubai, ON TIME ,275,40263.0,469,3867,Website,Business,Unknown,25
+FL0455,2025-10-23,Air India,Delhi,Kolkata,Cancelled,270,30962.0,263,3960,Website,Business,Unknown,40
+FL0456,2025-01-06,Air India,Chennai,Hyderabad,Delayed,55,23426.0,326,2463,Mobile App,Premium Economy,A350,40
+FL0457,2025-03-20,IndiGo,Pune,Dubai, ON TIME ,197,40199.0,308,518,Mobile App,Economy,B737,30
+FL0458,2025-03-09,IndiGo,Delhi,Dubai,Delayed,235,5731.0,330,1785,Travel Agent,Economy,B787,35
+FL0459,2025-12-24,SpiceJet,Mumbai,Dubai,Delayed,95,34472.0,252,2821,Website,Business,A350,35
+FL0460,2025-09-26,Vistara,Bengaluru,Mumbai,Cancelled,243,30684.0,215,2954,Website,Economy,A320,40
+FL0461,2025-08-05,IndiGo,Kolkata,Bengaluru,Cancelled,133,41420.0,385,249,Travel Agent,Business,B737,35
+FL0462,2025-11-16,SpiceJet,Chennai,Delhi, ON TIME ,104,15586.0,400,1681,Mobile App,Economy,A320,40
+FL0463,2025-05-05,SpiceJet,Hyderabad,Delhi,Cancelled,222,9792.0,206,1993,Airport Counter,Economy,B737,20
+FL0464,2025-10-03,Vistara,Bengaluru,Mumbai,Delayed,237,19451.0,330,2128,Website,Business,Unknown,40
+FL0465,2025-01-10,Air India,Chennai,Hyderabad,Delayed,60,21113.0,152,3382,Mobile App,Business,B737,15
+FL0466,2025-12-02,IndiGo,Delhi,Goa,Cancelled,114,26107.0,492,591,Website,Premium Economy,Unknown,30
+FL0467,2025-07-14,Air India,Kolkata,Dubai, ON TIME ,197,37336.0,95,913,Mobile App,Business,B787,35
+FL0468,2025-01-12,IndiGo,Bengaluru,Mumbai,Cancelled,130,34608.0,251,3199,Mobile App,Economy,B737,40
+FL0469,2025-07-01,Akasa Air,Bengaluru,Mumbai,Cancelled,252,6563.0,370,1205,Airport Counter,Economy,A350,25
+FL0470,2025-03-19,IndiGo,Pune,Chennai,On Time,231,27548.0,316,4084,Mobile App,Business,Unknown,40
+FL0471,2025-08-02,Vistara,Mumbai,Goa,Cancelled,277,24080.0,279,2370,Mobile App,Business,Unknown,20
+FL0472,2025-10-05,Vistara,Mumbai,Hyderabad,Cancelled,225,36828.0,515,703,Airport Counter,Business,Unknown,35
+FL0473,2025-06-12,Air India,Delhi,Chennai,Cancelled,259,12036.0,422,270,Travel Agent,Economy,B787,25
+FL0474,2025-11-23,Akasa Air,Mumbai,Bengaluru,On Time,78,14607.0,63,3272,Website,Business,B737,35
+FL0475,2025-11-10,Vistara,Bengaluru,Delhi,Cancelled,65,33734.0,118,2207,Website,Economy,Unknown,40
+FL0476,2025-04-05,Air India,Chennai,Dubai,Delayed,86,15165.0,165,282,Airport Counter,Economy,B737,30
+FL0477,2025-12-10,Vistara,Bengaluru,Mumbai,Delayed,157,34608.0,402,1480,Airport Counter,Business,B787,30
+FL0478,2025-11-08,Air India,Kolkata,Goa,Delayed,235,39982.0,354,2346,Website,Economy,A350,15
+FL0479,2025-08-22,IndiGo,Bengaluru,Mumbai,Delayed,146,5072.0,335,1736,Website,Economy,A321,25
+FL0480,2025-07-23,Akasa Air,Hyderabad,Dubai,Delayed,153,21795.0,363,3914,Website,Business,A321,30
+FL0481,2025-08-20,Air India,Delhi,Chennai, ON TIME ,194,38309.0,119,1760,Airport Counter,Premium Economy,B787,15
+FL0482,2025-07-12,Vistara,Chennai,Mumbai,Cancelled,127,13247.0,417,3153,Website,Economy,A320,40
+FL0483,2025-11-21,IndiGo,Delhi,Mumbai,Cancelled,143,36032.0,363,4040,Mobile App,Economy,A350,30
+FL0484,2025-03-29,IndiGo,Mumbai,Chennai, ON TIME ,82,14222.0,443,3066,Website,Economy,B737,25
+FL0485,2025-08-17,Akasa Air,Mumbai,Chennai,Delayed,45,19087.0,56,2028,Airport Counter,Economy,A350,15
+FL0486,2025-09-10,Vistara,Bengaluru,Dubai,On Time,149,31458.0,90,2612,Website,Economy,A321,35
+FL0487,2025-11-14,Vistara,Chennai,Delhi,Cancelled,134,4906.0,124,3647,Website,Business,A350,25
+FL0488,2025-02-14,IndiGo,Delhi,Goa,Delayed,86,21137.0,362,2857,Mobile App,Business,A350,35
+FL0489,2025-08-22,IndiGo,Chennai,Mumbai, ON TIME ,121,23656.0,238,3826,Airport Counter,Economy,B787,35
+FL0490,2025-05-30,SpiceJet,Mumbai,Hyderabad,Cancelled,179,29616.0,318,1009,Mobile App,Business,A350,15
+FL0491,2025-10-20,Air India,Chennai,Hyderabad,On Time,200,23241.0,182,2302,Website,Business,B737,20
+FL0492,2025-10-16,SpiceJet,Chennai,Dubai, ON TIME ,91,17751.0,412,1339,Mobile App,Economy,Unknown,15
+FL0493,2025-11-17,Air India,Bengaluru,Goa,On Time,56,24375.0,229,2445,Mobile App,Business,A320,40
+FL0494,2025-12-20,Akasa Air,Hyderabad,Mumbai,Cancelled,121,35706.0,331,1476,Website,Economy,Unknown,25
+FL0495,2025-07-22,IndiGo,Mumbai,Bengaluru,Cancelled,258,24647.0,394,2112,Airport Counter,Economy,Unknown,20
+FL0496,2025-03-21,SpiceJet,Kolkata,Dubai, ON TIME ,253,29628.0,430,379,Website,Premium Economy,A350,40
+FL0497,2025-06-11,IndiGo,Bengaluru,Kolkata, ON TIME ,279,25673.0,83,4121,Mobile App,Premium Economy,A320,25
+FL0498,2025-11-17,SpiceJet,Pune,Chennai,Delayed,74,22703.0,411,3663,Travel Agent,Economy,B737,30
+FL0499,2025-09-12,Vistara,Kolkata,Dubai, ON TIME ,122,16664.0,318,1388,Mobile App,Economy,B737,15
+FL0500,2025-02-17,SpiceJet,Chennai,Dubai,Delayed,84,14965.0,224,3933,Airport Counter,Business,B737,25
+FL0501,2025-02-20,SpiceJet,Bengaluru,Delhi,On Time,144,36732.0,109,166,Travel Agent,Economy,Unknown,35
+FL0502,2025-06-20,SpiceJet,Chennai,Mumbai,Delayed,241,22978.0,61,2515,Travel Agent,Business,B737,20
+FL0503,2025-05-27,Akasa Air,Kolkata,Dubai,Cancelled,75,20368.0,126,795,Travel Agent,Economy,A320,35
+FL0504,2025-09-21,Air India,Bengaluru,Mumbai,Cancelled,185,23372.0,188,729,Mobile App,Premium Economy,A350,20
+FL0505,2025-02-06,Akasa Air,Kolkata,Mumbai,On Time,57,11024.0,64,2078,Mobile App,Economy,A320,30
+FL0506,2025-02-14,Air India,Pune,Chennai,Cancelled,197,41346.0,372,3574,Mobile App,Economy,A350,25
+FL0507,2025-06-20,Vistara,Delhi,Dubai,Delayed,78,8589.0,466,3436,Mobile App,Economy,A320,30
+FL0508,2025-12-17,SpiceJet,Chennai,Bengaluru,Delayed,81,19411.0,517,1638,Airport Counter,Business,Unknown,40
+FL0509,2025-06-16,SpiceJet,Chennai,Delhi,On Time,166,9898.0,229,2110,Airport Counter,Business,B737,25
+FL0510,2025-10-22,SpiceJet,Delhi,Goa, ON TIME ,227,9511.0,216,2427,Mobile App,Economy,B737,35
+FL0511,2025-07-25,Air India,Bengaluru,Mumbai,Delayed,168,27653.0,83,1545,Mobile App,Business,B787,30
+FL0512,2025-06-25,Vistara,Mumbai,Dubai,On Time,196,41564.0,287,1482,Website,Economy,B787,20
+FL0513,2025-07-27,Air India,Delhi,Goa,Cancelled,171,6529.0,96,1041,Mobile App,Business,Unknown,15
+FL0514,2025-12-05,SpiceJet,Chennai,Mumbai,Cancelled,144,40375.0,278,951,Mobile App,Premium Economy,B737,35
+FL0515,2025-06-05,Air India,Kolkata,Mumbai,Delayed,47,35951.0,256,3621,Mobile App,Premium Economy,A320,25
+FL0516,2025-01-28,IndiGo,Kolkata,Mumbai, ON TIME ,117,4543.0,170,1918,Mobile App,Business,B787,40
+FL0517,2025-12-31,Air India,Pune,Goa,On Time,184,16342.0,389,860,Airport Counter,Business,A321,35
+FL0518,2025-07-04,Air India,Mumbai,Hyderabad, ON TIME ,216,10727.0,118,197,Website,Economy,A321,40
+FL0519,2025-12-03,Air India,Mumbai,Chennai,Cancelled,251,29753.0,490,2017,Mobile App,Business,B787,35
+FL0520,2025-08-21,Air India,Chennai,Goa,Cancelled,102,14676.0,267,2626,Website,Business,B787,40
+FL0521,2025-12-31,Akasa Air,Pune,Mumbai,Delayed,138,4692.0,69,2477,Airport Counter,Premium Economy,A320,35
+FL0522,2025-12-20,Air India,Mumbai,Hyderabad,On Time,177,7627.0,317,3795,Website,Economy,A321,30
+FL0523,2025-12-06,Air India,Hyderabad,Delhi,Cancelled,181,3206.0,290,2009,Website,Economy,A350,40
+FL0524,2025-08-04,IndiGo,Hyderabad,Chennai,On Time,222,3500.0,433,1395,Mobile App,Business,B737,15
+FL0525,2025-08-31,SpiceJet,Chennai,Hyderabad, ON TIME ,233,4289.0,196,2135,Website,Business,A350,15
+FL0526,2025-05-10,SpiceJet,Hyderabad,Delhi,Cancelled,73,13943.0,515,2573,Mobile App,Business,Unknown,30
+FL0527,2025-03-31,Akasa Air,Bengaluru,Dubai,Delayed,249,37062.0,491,285,Travel Agent,Economy,A321,35
+FL0528,2025-09-11,Air India,Pune,Bengaluru,Cancelled,157,13463.0,157,2516,Mobile App,Premium Economy,A320,40
+FL0529,2025-03-01,IndiGo,Mumbai,Dubai,On Time,166,22250.0,293,3206,Website,Business,B787,40
+FL0530,2025-07-19,SpiceJet,Hyderabad,Chennai,Delayed,267,30990.0,56,1332,Airport Counter,Economy,Unknown,25
+FL0531,2025-12-16,IndiGo,Delhi,Mumbai,Cancelled,135,30797.0,362,3910,Mobile App,Premium Economy,B737,25
+FL0532,2025-02-20,Akasa Air,Pune,Dubai, ON TIME ,217,18346.0,425,2902,Website,Business,A350,25
+FL0533,2025-12-20,SpiceJet,Kolkata,Mumbai,On Time,217,3055.0,475,428,Website,Economy,A320,35
+FL0534,2025-12-17,SpiceJet,Kolkata,Bengaluru,Cancelled,117,19008.0,148,289,Website,Business,A320,15
+FL0535,2025-12-03,Vistara,Delhi,Mumbai,On Time,264,11013.0,242,2838,Mobile App,Business,A321,15
+FL0536,2025-04-05,Akasa Air,Hyderabad,Dubai,Cancelled,64,32216.0,191,3301,Airport Counter,Premium Economy,B737,20
+FL0537,2025-05-22,IndiGo,Pune,Goa,Cancelled,60,19423.0,466,1234,Mobile App,Economy,A320,30
+FL0538,2025-11-09,Air India,Mumbai,Dubai,On Time,81,37930.0,443,1916,Mobile App,Business,Unknown,15
+FL0539,2025-05-13,Air India,Chennai,Mumbai,On Time,191,18923.0,447,1976,Website,Economy,A321,40
+FL0540,2025-01-01,IndiGo,Pune,Hyderabad,Delayed,224,24115.0,513,1752,Website,Economy,A350,40
+FL0541,2025-09-02,Air India,Pune,Mumbai,Delayed,102,2716.0,246,4058,Mobile App,Economy,A320,35
+FL0542,2025-07-03,IndiGo,Hyderabad,Goa,On Time,206,8441.0,237,2339,Travel Agent,Economy,B787,25
+FL0543,2025-04-14,SpiceJet,Chennai,Goa,Cancelled,93,22086.0,406,1747,Website,Premium Economy,B787,15
+FL0544,2025-08-13,Vistara,Mumbai,Delhi,Delayed,51,41359.0,172,2153,Airport Counter,Economy,A350,40
+FL0545,2025-09-13,SpiceJet,Chennai,Delhi,Cancelled,59,24632.0,453,3103,Website,Economy,A320,20
+FL0546,2025-12-08,SpiceJet,Mumbai,Bengaluru,On Time,54,11779.0,300,2828,Website,Economy,A350,15
+FL0547,2025-12-26,SpiceJet,Chennai,Delhi,Cancelled,255,8876.0,283,2653,Mobile App,Business,A320,15
+FL0548,2025-09-12,Vistara,Delhi,Bengaluru,On Time,131,28846.0,216,644,Mobile App,Business,A350,20
+FL0549,2025-04-20,IndiGo,Mumbai,Kolkata,On Time,75,20449.0,122,3252,Airport Counter,Business,Unknown,25
+FL0550,2025-03-26,SpiceJet,Bengaluru,Delhi,Delayed,70,27150.0,448,796,Website,Economy,A320,15
+FL0551,2025-04-02,Air India,Hyderabad,Goa,Cancelled,251,33695.0,404,669,Mobile App,Business,Unknown,25
+FL0552,2025-08-19,Air India,Bengaluru,Chennai,Delayed,222,4965.0,355,887,Mobile App,Economy,A350,15
+FL0553,2025-06-04,IndiGo,Pune,Delhi,Delayed,105,15076.0,110,4191,Website,Economy,A350,25
+FL0554,2025-09-17,Vistara,Chennai,Bengaluru,Cancelled,58,15195.0,107,3412,Mobile App,Economy,B787,20
+FL0555,2025-12-10,IndiGo,Chennai,Kolkata,Cancelled,98,30986.0,178,1519,Website,Economy,A320,15
+FL0556,2025-01-27,SpiceJet,Mumbai,Delhi,On Time,176,10106.0,86,3816,Mobile App,Economy,A350,35
+FL0557,2025-08-03,Vistara,Kolkata,Bengaluru, ON TIME ,73,23873.0,166,551,Mobile App,Economy,A321,30
+FL0558,2025-02-07,SpiceJet,Chennai,Delhi,On Time,82,16666.0,362,2013,Mobile App,Economy,B737,20
+FL0559,2025-04-10,IndiGo,Hyderabad,Bengaluru,Cancelled,77,4603.0,404,2479,Website,Premium Economy,A321,15
+FL0560,2025-08-23,Air India,Mumbai,Kolkata,Delayed,271,21843.0,359,792,Mobile App,Business,A321,35
+FL0561,2025-04-28,Air India,Pune,Mumbai,On Time,265,16684.0,352,2089,Airport Counter,Premium Economy,A320,40
+FL0562,2025-05-07,Vistara,Kolkata,Goa,Delayed,101,41282.0,126,3892,Website,Economy,B787,15
+FL0563,2025-08-29,IndiGo,Pune,Mumbai,On Time,167,8922.0,281,2178,Mobile App,Economy,A350,15
+FL0564,2025-07-28,Vistara,Mumbai,Kolkata,Cancelled,106,8446.0,58,2115,Mobile App,Premium Economy,A321,40
+FL0565,2025-10-20,IndiGo,Chennai,Dubai, ON TIME ,80,29065.0,144,3385,Travel Agent,Economy,Unknown,40
+FL0566,2025-11-18,Air India,Pune,Kolkata,Delayed,53,21937.0,268,3233,Travel Agent,Business,A350,35
+FL0567,2025-12-17,Air India,Kolkata,Delhi,Delayed,162,26354.0,504,361,Website,Economy,B737,30
+FL0568,2025-01-21,IndiGo,Kolkata,Chennai,Cancelled,188,6891.0,337,3055,Mobile App,Business,B737,20
+FL0569,2025-02-28,SpiceJet,Bengaluru,Kolkata,Cancelled,274,20021.0,307,2936,Airport Counter,Premium Economy,A320,15
+FL0570,2025-06-26,SpiceJet,Chennai,Mumbai,Delayed,257,10541.0,290,3057,Website,Business,Unknown,30
+FL0571,2025-07-08,Air India,Bengaluru,Dubai,On Time,65,28103.0,509,882,Travel Agent,Economy,A320,20
+FL0572,2025-02-27,SpiceJet,Chennai,Bengaluru,Delayed,205,3987.0,200,1856,Mobile App,Business,A321,30
+FL0573,2025-08-04,SpiceJet,Chennai,Hyderabad,Delayed,61,3944.0,496,3434,Mobile App,Business,Unknown,25
+FL0574,2025-10-24,IndiGo,Kolkata,Dubai,Delayed,215,37244.0,481,2396,Airport Counter,Economy,B737,35
+FL0575,2025-06-06,SpiceJet,Hyderabad,Bengaluru,On Time,140,21383.0,444,3613,Website,Business,B737,25
+FL0576,2025-03-27,SpiceJet,Hyderabad,Chennai,Delayed,259,12558.0,132,1124,Website,Economy,B737,35
+FL0577,2025-08-14,Akasa Air,Kolkata,Chennai,Delayed,188,4773.0,390,1448,Travel Agent,Business,B737,30
+FL0578,2025-03-25,Akasa Air,Delhi,Goa,On Time,241,12027.0,284,3950,Travel Agent,Business,A320,40
+FL0579,2025-09-17,IndiGo,Hyderabad,Dubai,Cancelled,238,40099.0,391,752,Website,Economy,B737,40
+FL0580,2025-09-03,IndiGo,Mumbai,Hyderabad,On Time,147,16941.0,278,1613,Website,Premium Economy,A320,35
+FL0581,2025-04-10,Vistara,Hyderabad,Bengaluru,On Time,66,37785.0,484,1974,Mobile App,Economy,A350,30
+FL0582,2025-09-09,IndiGo,Chennai,Kolkata,On Time,82,30525.0,239,1731,Travel Agent,Economy,B737,25
+FL0583,2025-06-07,SpiceJet,Delhi,Bengaluru,Cancelled,272,31612.0,429,1852,Airport Counter,Premium Economy,A321,40
+FL0584,2025-08-01,SpiceJet,Delhi,Chennai,Delayed,122,33604.0,494,2301,Travel Agent,Economy,A350,30
+FL0585,2025-01-04,Air India,Hyderabad,Goa,Delayed,187,22281.0,413,2476,Mobile App,Business,A321,30
+FL0586,2025-10-11,SpiceJet,Chennai,Hyderabad, ON TIME ,194,22417.0,302,2440,Mobile App,Economy,A321,15
+FL0587,2025-03-20,Akasa Air,Hyderabad,Dubai,On Time,212,21353.0,263,884,Airport Counter,Business,A320,15
+FL0588,2025-09-10,Air India,Kolkata,Dubai,Delayed,156,19402.0,371,2959,Airport Counter,Economy,B737,35
+FL0589,2025-10-22,IndiGo,Hyderabad,Chennai,Delayed,59,12077.0,213,2038,Mobile App,Business,B737,20
+FL0590,2025-05-20,IndiGo,Pune,Kolkata,On Time,119,21614.0,321,2767,Website,Business,A321,40
+FL0591,2025-02-18,SpiceJet,Kolkata,Hyderabad,Cancelled,220,26258.0,99,2338,Website,Premium Economy,A321,15
+FL0592,2025-09-23,Akasa Air,Kolkata,Dubai,On Time,132,13184.0,102,1042,Mobile App,Business,A321,20
+FL0593,2025-11-11,Air India,Pune,Dubai,On Time,74,11100.0,58,2114,Travel Agent,Premium Economy,Unknown,25
+FL0594,2025-08-15,IndiGo,Mumbai,Hyderabad,On Time,235,10272.0,163,677,Mobile App,Business,Unknown,20
+FL0595,2025-03-06,Vistara,Mumbai,Goa,Cancelled,240,9821.0,89,227,Airport Counter,Economy,A320,20
+FL0596,2025-01-17,IndiGo,Chennai,Mumbai,Cancelled,56,6841.0,204,2884,Website,Economy,A320,35
+FL0597,2025-10-28,Vistara,Mumbai,Kolkata,On Time,68,12039.0,483,3206,Travel Agent,Business,B737,25
+FL0598,2025-09-14,Vistara,Delhi,Mumbai, ON TIME ,193,3416.0,320,1038,Mobile App,Business,B737,20
+FL0599,2025-01-03,Air India,Bengaluru,Mumbai, ON TIME ,226,33610.0,237,3009,Website,Business,B787,40
+FL0600,2025-04-03,IndiGo,Pune,Goa,Delayed,176,17412.0,258,612,Travel Agent,Economy,B787,15
+FL0601,2025-03-11,SpiceJet,Kolkata,Hyderabad,Delayed,229,5161.0,92,1493,Airport Counter,Economy,B787,25
+FL0602,2025-11-04,Akasa Air,Chennai,Bengaluru,Delayed,149,21544.0,487,1902,Mobile App,Economy,B787,40
+FL0603,2025-04-02,IndiGo,Chennai,Mumbai,On Time,157,36753.0,387,2921,Website,Economy,A321,30
+FL0604,2025-12-22,Air India,Mumbai,Kolkata,Delayed,131,15624.0,354,3607,Airport Counter,Economy,A321,30
+FL0605,2025-09-13,Akasa Air,Hyderabad,Goa,Cancelled,166,29005.0,298,2244,Travel Agent,Business,B787,15
+FL0606,2025-07-18,SpiceJet,Chennai,Bengaluru,Cancelled,79,4447.0,100,3172,Website,Economy,B787,40
+FL0607,2025-04-02,Air India,Kolkata,Chennai,Cancelled,204,8813.0,439,463,Mobile App,Business,B787,30
+FL0608,2025-05-31,SpiceJet,Chennai,Mumbai,Cancelled,183,25019.0,464,3671,Website,Business,A320,15
+FL0609,2025-03-02,Air India,Chennai,Kolkata, ON TIME ,141,31503.0,285,297,Website,Business,A350,40
+FL0610,2025-12-28,SpiceJet,Chennai,Goa,Delayed,124,27998.0,299,3279,Website,Business,Unknown,30
+FL0611,2025-10-11,SpiceJet,Chennai,Mumbai, ON TIME ,85,35706.0,78,1753,Travel Agent,Economy,A350,30
+FL0612,2025-12-13,IndiGo,Hyderabad,Kolkata,On Time,52,41196.0,73,675,Travel Agent,Premium Economy,Unknown,35
+FL0613,2025-11-17,IndiGo,Pune,Mumbai,On Time,133,25920.0,260,1588,Website,Business,A321,20
+FL0614,2025-06-09,Air India,Delhi,Hyderabad,On Time,131,13626.0,60,2355,Travel Agent,Economy,B787,40
+FL0615,2025-10-18,Air India,Hyderabad,Delhi,Cancelled,165,41034.0,61,4187,Travel Agent,Economy,A350,30
+FL0616,2025-10-21,Air India,Chennai,Mumbai,Cancelled,217,15994.0,222,2184,Website,Premium Economy,A321,35
+FL0617,2025-07-06,Air India,Bengaluru,Dubai,Cancelled,261,7436.0,480,3632,Website,Business,B737,25
+FL0618,2025-06-02,Air India,Bengaluru,Mumbai,Cancelled,261,40392.0,98,2574,Travel Agent,Premium Economy,A320,35
+FL0619,2025-09-01,Air India,Bengaluru,Kolkata, ON TIME ,64,22281.0,308,3443,Travel Agent,Economy,Unknown,35
+FL0620,2025-04-13,Air India,Pune,Hyderabad,Delayed,176,32202.0,393,3277,Website,Business,A320,40
+FL0621,2025-09-22,SpiceJet,Chennai,Bengaluru,Cancelled,255,33124.0,187,3988,Mobile App,Business,A350,30
+FL0622,2025-11-17,IndiGo,Bengaluru,Kolkata,On Time,82,18253.0,127,3207,Mobile App,Premium Economy,B787,30
+FL0623,2025-02-02,Vistara,Pune,Hyderabad, ON TIME ,118,13024.0,181,2963,Website,Business,B787,20
+FL0624,2025-07-18,Vistara,Chennai,Bengaluru, ON TIME ,256,22851.0,287,2138,Website,Economy,B787,40
+FL0625,2025-04-14,SpiceJet,Hyderabad,Chennai,On Time,111,20704.0,387,2405,Mobile App,Economy,Unknown,30
+FL0626,2025-01-29,Air India,Kolkata,Hyderabad, ON TIME ,61,29173.0,509,1638,Mobile App,Economy,B787,40
+FL0627,2025-05-01,Air India,Delhi,Mumbai,Cancelled,257,40538.0,446,3965,Website,Premium Economy,B787,15
+FL0628,2025-11-04,Air India,Kolkata,Goa, ON TIME ,236,17962.0,266,1042,Mobile App,Economy,A321,20
+FL0629,2025-08-14,Air India,Hyderabad,Delhi,On Time,181,27056.0,408,4035,Website,Premium Economy,A350,30
+FL0630,2025-12-16,Vistara,Hyderabad,Chennai,Cancelled,166,26600.0,470,1412,Website,Business,A320,40
+FL0631,2025-01-28,Vistara,Hyderabad,Mumbai,On Time,124,26280.0,512,3476,Mobile App,Economy,A350,20
+FL0632,2025-07-18,IndiGo,Pune,Hyderabad,Cancelled,68,17931.0,202,1011,Mobile App,Economy,Unknown,25
+FL0633,2025-07-28,IndiGo,Hyderabad,Mumbai, ON TIME ,244,34723.0,291,3168,Airport Counter,Premium Economy,Unknown,30
+FL0634,2025-03-24,Akasa Air,Delhi,Kolkata,On Time,199,38395.0,427,1488,Airport Counter,Economy,A320,40
+FL0635,2025-04-05,SpiceJet,Mumbai,Delhi,On Time,96,22524.0,210,2508,Website,Economy,A321,20
+FL0636,2025-11-29,SpiceJet,Pune,Kolkata,On Time,167,11249.0,183,860,Mobile App,Business,B737,25
+FL0637,2025-07-18,Air India,Kolkata,Chennai,On Time,269,27228.0,477,3772,Website,Business,A320,15
+FL0638,2025-11-28,Vistara,Delhi,Dubai,Delayed,112,13559.0,75,1792,Website,Economy,A350,25
+FL0639,2025-02-15,IndiGo,Mumbai,Delhi,Cancelled,179,31018.0,445,3918,Airport Counter,Economy,A320,20
+FL0640,2025-04-15,Vistara,Hyderabad,Dubai,On Time,78,30766.0,488,996,Website,Business,B737,40
+FL0641,2025-04-07,Air India,Mumbai,Goa, ON TIME ,82,4385.0,198,4148,Travel Agent,Business,A350,30
+FL0642,2025-07-09,SpiceJet,Delhi,Dubai,Delayed,268,23684.0,404,1778,Mobile App,Business,Unknown,30
+FL0643,2025-08-05,Akasa Air,Delhi,Mumbai,Delayed,60,5915.0,220,3963,Mobile App,Economy,B737,35
+FL0644,2025-11-03,IndiGo,Chennai,Hyderabad,Delayed,203,27465.0,204,4153,Airport Counter,Premium Economy,A321,35
+FL0645,2025-10-25,SpiceJet,Hyderabad,Chennai,Delayed,171,24728.0,499,2067,Mobile App,Economy,B737,40
+FL0646,2025-08-10,SpiceJet,Hyderabad,Mumbai,Cancelled,56,10880.0,305,3720,Travel Agent,Premium Economy,B787,25
+FL0647,2025-11-10,Akasa Air,Kolkata,Goa,Delayed,125,34696.0,441,4041,Mobile App,Business,Unknown,40
+FL0648,2025-01-28,Vistara,Mumbai,Delhi,Delayed,91,4850.0,290,1215,Mobile App,Economy,B787,15
+FL0649,2025-01-21,SpiceJet,Kolkata,Mumbai,On Time,162,34808.0,107,3614,Mobile App,Business,A320,25
+FL0650,2025-04-15,Akasa Air,Mumbai,Chennai,Cancelled,175,20377.0,338,3799,Mobile App,Business,A321,35
+FL0651,2025-09-27,SpiceJet,Pune,Mumbai,Delayed,241,35144.0,396,536,Travel Agent,Economy,B737,40
+FL0652,2025-03-04,Air India,Kolkata,Mumbai, ON TIME ,127,12577.0,64,482,Airport Counter,Economy,B787,40
+FL0653,2025-11-01,IndiGo,Kolkata,Delhi,Cancelled,204,32194.0,216,4030,Mobile App,Business,A321,20
+FL0654,2025-11-26,Akasa Air,Kolkata,Delhi,Cancelled,63,38358.0,358,1712,Website,Economy,Unknown,20
+FL0655,2025-07-24,Air India,Chennai,Bengaluru,Delayed,144,28871.0,195,2800,Mobile App,Business,A320,25
+FL0656,2025-08-10,Akasa Air,Mumbai,Kolkata,Cancelled,69,26581.0,312,968,Airport Counter,Economy,B787,30
+FL0657,2025-10-16,Air India,Delhi,Goa, ON TIME ,139,14713.0,272,2733,Airport Counter,Economy,A320,35
+FL0658,2025-08-26,Vistara,Mumbai,Dubai,Delayed,206,36885.0,92,1340,Airport Counter,Economy,A320,30
+FL0659,2025-03-18,SpiceJet,Hyderabad,Bengaluru,Delayed,154,21864.0,341,345,Website,Economy,A320,35
+FL0660,2025-09-19,Air India,Pune,Mumbai,On Time,214,39755.0,466,1187,Travel Agent,Premium Economy,A350,15
+FL0661,2025-01-09,Air India,Chennai,Goa,On Time,66,29779.0,498,3035,Travel Agent,Premium Economy,A350,40
+FL0662,2025-12-10,SpiceJet,Hyderabad,Kolkata, ON TIME ,252,14767.0,158,908,Website,Business,B737,40
+FL0663,2025-08-11,IndiGo,Chennai,Goa,On Time,48,13754.0,385,2104,Airport Counter,Economy,Unknown,40
+FL0664,2025-09-07,Akasa Air,Kolkata,Goa, ON TIME ,122,8243.0,114,703,Website,Business,A320,15
+FL0665,2025-04-07,IndiGo,Bengaluru,Dubai,Cancelled,82,18345.0,273,3599,Mobile App,Business,A321,15
+FL0666,2025-08-26,SpiceJet,Chennai,Goa,On Time,74,13385.0,512,774,Mobile App,Economy,B787,30
+FL0667,2025-08-19,Vistara,Bengaluru,Hyderabad,Delayed,257,28172.0,76,1517,Website,Economy,Unknown,40
+FL0668,2025-08-01,SpiceJet,Hyderabad,Delhi,On Time,147,34357.0,312,2570,Mobile App,Business,Unknown,30
+FL0669,2025-02-01,IndiGo,Pune,Kolkata,Delayed,61,20053.0,507,2805,Airport Counter,Economy,A320,30
+FL0670,2025-11-27,IndiGo,Chennai,Goa,On Time,86,21375.0,421,937,Airport Counter,Premium Economy,B787,20
+FL0671,2025-04-23,IndiGo,Chennai,Hyderabad,Cancelled,227,28083.0,263,3562,Mobile App,Premium Economy,B787,20
+FL0672,2025-04-17,Akasa Air,Delhi,Dubai,Delayed,89,15573.0,130,2631,Airport Counter,Economy,B787,30
+FL0673,2025-05-01,Vistara,Chennai,Delhi,Cancelled,270,19592.0,232,2922,Mobile App,Business,A350,15
+FL0674,2025-06-22,Air India,Delhi,Bengaluru,On Time,188,17186.0,299,1206,Travel Agent,Premium Economy,A320,35
+FL0675,2025-03-19,Air India,Chennai,Dubai, ON TIME ,162,9769.0,104,3351,Website,Business,A320,35
+FL0676,2025-09-17,Air India,Mumbai,Bengaluru,Cancelled,85,21644.0,412,1958,Website,Economy,Unknown,15
+FL0677,2025-11-28,IndiGo,Kolkata,Chennai,On Time,262,15731.0,274,4121,Airport Counter,Economy,A321,30
+FL0678,2025-05-27,SpiceJet,Delhi,Hyderabad,Cancelled,228,29698.0,234,2728,Mobile App,Business,A321,35
+FL0679,2025-04-27,SpiceJet,Pune,Goa,On Time,274,32564.0,486,2264,Mobile App,Premium Economy,A320,30
+FL0680,2025-01-06,Air India,Delhi,Kolkata,Cancelled,147,13269.0,272,401,Airport Counter,Economy,Unknown,40
+FL0681,2025-10-22,IndiGo,Hyderabad,Goa,On Time,271,38781.0,497,1396,Mobile App,Premium Economy,B737,15
+FL0682,2025-09-28,SpiceJet,Pune,Dubai,Cancelled,97,38179.0,369,3379,Website,Economy,Unknown,25
+FL0683,2025-07-27,Vistara,Hyderabad,Mumbai,On Time,182,24421.0,249,3120,Mobile App,Business,A350,35
+FL0684,2025-04-20,Air India,Hyderabad,Mumbai,Cancelled,238,12987.0,61,264,Website,Business,B737,20
+FL0685,2025-08-05,Air India,Chennai,Kolkata,Cancelled,205,35759.0,231,657,Website,Economy,B787,25
+FL0686,2025-01-03,SpiceJet,Kolkata,Bengaluru, ON TIME ,235,40615.0,339,3077,Mobile App,Business,A350,20
+FL0687,2025-06-03,Akasa Air,Mumbai,Goa,Delayed,233,18728.0,103,1492,Website,Business,A321,25
+FL0688,2025-02-20,SpiceJet,Pune,Goa,On Time,68,6575.0,267,3789,Mobile App,Economy,A321,30
+FL0689,2025-07-09,Air India,Pune,Hyderabad,Delayed,172,30249.0,275,2972,Airport Counter,Economy,A321,20
+FL0690,2025-03-07,SpiceJet,Chennai,Mumbai, ON TIME ,180,10237.0,405,1020,Airport Counter,Economy,A320,40
+FL0691,2025-10-14,IndiGo,Delhi,Goa,On Time,75,26721.0,342,1336,Website,Business,A321,15
+FL0692,2025-06-06,IndiGo,Hyderabad,Dubai,On Time,247,11863.0,122,3360,Website,Economy,A320,25
+FL0693,2025-04-21,SpiceJet,Chennai,Delhi,On Time,185,25349.0,84,3715,Website,Economy,B787,35
+FL0694,2025-10-17,SpiceJet,Kolkata,Goa,On Time,258,11203.0,440,717,Website,Economy,B787,40
+FL0695,2025-03-18,IndiGo,Delhi,Goa,On Time,104,28412.0,223,2365,Website,Economy,Unknown,25
+FL0696,2025-02-15,SpiceJet,Chennai,Hyderabad,Delayed,210,10612.0,379,2441,Website,Business,A350,35
+FL0697,2025-01-28,Vistara,Chennai,Mumbai,On Time,75,37355.0,142,4091,Website,Premium Economy,A321,20
+FL0698,2025-10-24,SpiceJet,Delhi,Mumbai,Delayed,127,22281.0,351,334,Airport Counter,Economy,B737,30
+FL0699,2025-08-01,IndiGo,Kolkata,Goa,Cancelled,68,10013.0,100,2369,Mobile App,Premium Economy,A321,20
+FL0700,2025-02-15,SpiceJet,Hyderabad,Goa,Cancelled,88,6360.0,364,4086,Travel Agent,Business,A320,40
+FL0701,2025-06-02,Air India,Delhi,Kolkata,Delayed,150,23747.0,182,1688,Website,Economy,A321,20
+FL0702,2025-10-28,Vistara,Chennai,Mumbai, ON TIME ,174,27734.0,108,1253,Website,Premium Economy,B787,35
+FL0703,2025-02-03,SpiceJet,Chennai,Goa,Cancelled,104,3720.0,187,2419,Website,Economy,A321,35
+FL0704,2025-03-06,Akasa Air,Pune,Dubai,On Time,261,35296.0,154,3356,Mobile App,Premium Economy,A350,20
+FL0705,2025-10-03,Air India,Chennai,Delhi,On Time,253,32951.0,474,2692,Travel Agent,Business,A320,15
+FL0706,2025-05-20,Akasa Air,Pune,Kolkata, ON TIME ,206,16443.0,349,3593,Website,Premium Economy,A320,20
+FL0707,2025-10-01,Air India,Hyderabad,Mumbai,On Time,223,10559.0,475,722,Mobile App,Business,B737,30
+FL0708,2025-11-09,IndiGo,Kolkata,Hyderabad, ON TIME ,226,32169.0,189,1157,Mobile App,Premium Economy,B737,20
+FL0709,2025-11-03,IndiGo,Chennai,Delhi,Delayed,166,2780.0,511,189,Mobile App,Business,B787,35
+FL0710,2025-12-27,SpiceJet,Pune,Mumbai,On Time,246,7580.0,325,276,Mobile App,Economy,Unknown,15
+FL0711,2025-07-12,IndiGo,Pune,Chennai, ON TIME ,241,3052.0,113,2045,Travel Agent,Business,B787,15
+FL0712,2025-01-11,Akasa Air,Kolkata,Bengaluru,On Time,253,22369.0,463,3090,Mobile App,Business,B787,25
+FL0713,2025-05-24,SpiceJet,Bengaluru,Delhi,Delayed,255,28457.0,106,3713,Travel Agent,Business,A350,30
+FL0714,2025-10-10,Vistara,Mumbai,Chennai,Cancelled,61,10851.0,182,3973,Website,Business,A350,40
+FL0715,2025-04-09,IndiGo,Hyderabad,Mumbai,On Time,45,30491.0,378,2907,Mobile App,Economy,B737,30
+FL0716,2025-05-21,Air India,Chennai,Dubai,Cancelled,177,5348.0,502,3104,Mobile App,Economy,B737,30
+FL0717,2025-08-18,IndiGo,Chennai,Goa,Delayed,130,7861.0,500,2492,Website,Business,Unknown,30
+FL0718,2025-05-08,Vistara,Mumbai,Kolkata,Cancelled,61,8839.0,64,2115,Airport Counter,Economy,A350,40
+FL0719,2025-05-09,Vistara,Delhi,Dubai,Delayed,132,6067.0,470,1516,Website,Business,A320,35
+FL0720,2025-08-13,Air India,Chennai,Mumbai,On Time,60,4685.0,243,1433,Mobile App,Economy,A321,15
+FL0721,2025-01-29,Akasa Air,Pune,Mumbai,On Time,218,6156.0,336,363,Travel Agent,Economy,B787,15
+FL0722,2025-07-30,Vistara,Chennai,Dubai,On Time,163,30556.0,500,2690,Website,Economy,B737,40
+FL0723,2025-01-14,SpiceJet,Kolkata,Bengaluru,On Time,71,3305.0,354,3071,Website,Business,A321,35
+FL0724,2025-11-23,Akasa Air,Kolkata,Goa,On Time,230,31638.0,145,1145,Mobile App,Economy,A320,20
+FL0725,2025-10-27,Air India,Kolkata,Hyderabad,Delayed,271,37964.0,447,746,Mobile App,Economy,B737,35
+FL0726,2025-05-30,IndiGo,Chennai,Mumbai,Delayed,213,11976.0,79,1122,Website,Business,A320,30
+FL0727,2025-04-11,Vistara,Bengaluru,Mumbai,Cancelled,93,33677.0,405,2983,Airport Counter,Business,Unknown,25
+FL0728,2025-10-17,IndiGo,Hyderabad,Goa,Cancelled,86,9371.0,282,3738,Website,Economy,A321,15
+FL0729,2025-04-25,Vistara,Chennai,Bengaluru,Delayed,168,24226.0,463,3181,Airport Counter,Business,B787,20
+FL0730,2025-07-05,IndiGo,Delhi,Kolkata,On Time,187,10049.0,122,1340,Airport Counter,Business,Unknown,35
+FL0731,2025-01-23,IndiGo,Bengaluru,Hyderabad,Delayed,101,19670.0,418,863,Travel Agent,Business,A321,20
+FL0732,2025-01-12,SpiceJet,Hyderabad,Mumbai,On Time,162,11494.0,244,2832,Website,Premium Economy,A321,25
+FL0733,2025-05-03,IndiGo,Kolkata,Chennai,Delayed,249,30924.0,499,3062,Website,Economy,A321,20
+FL0734,2025-04-09,Air India,Kolkata,Goa,Cancelled,107,5527.0,440,2673,Website,Business,A350,25
+FL0735,2025-06-17,Vistara,Chennai,Hyderabad, ON TIME ,162,35809.0,349,3778,Airport Counter,Business,Unknown,15
+FL0736,2025-12-06,Air India,Mumbai,Goa, ON TIME ,270,35868.0,241,2192,Website,Economy,A321,25
+FL0737,2025-07-11,SpiceJet,Chennai,Dubai,Cancelled,193,28776.0,376,3923,Website,Economy,A321,20
+FL0738,2025-08-20,Vistara,Pune,Bengaluru,Cancelled,153,27212.0,342,793,Travel Agent,Premium Economy,A350,15
+FL0739,2025-02-13,Akasa Air,Chennai,Mumbai,Cancelled,103,40770.0,71,2055,Website,Business,B737,30
+FL0740,2025-08-28,Air India,Pune,Kolkata, ON TIME ,172,23276.0,189,1716,Website,Business,B787,20
+FL0741,2025-11-27,Air India,Kolkata,Mumbai,Cancelled,260,35383.0,312,2389,Mobile App,Economy,B737,20
+FL0742,2025-03-02,Air India,Kolkata,Delhi,Delayed,96,24373.0,150,2915,Travel Agent,Premium Economy,B737,40
+FL0743,2025-05-21,Vistara,Mumbai,Hyderabad,On Time,242,22126.0,194,3518,Travel Agent,Economy,B787,35
+FL0744,2025-01-07,SpiceJet,Mumbai,Goa,Delayed,103,16254.0,292,1107,Website,Business,A350,30
+FL0745,2025-08-25,IndiGo,Delhi,Kolkata, ON TIME ,93,30601.0,444,4008,Mobile App,Economy,A321,30
+FL0746,2025-10-13,IndiGo,Kolkata,Chennai,Delayed,268,10911.0,206,4013,Mobile App,Economy,B787,40
+FL0747,2025-06-23,Vistara,Pune,Goa,Cancelled,237,28935.0,440,3339,Mobile App,Business,B737,25
+FL0748,2025-01-12,IndiGo,Mumbai,Chennai,Cancelled,190,40109.0,493,1751,Airport Counter,Business,B787,15
+FL0749,2025-07-17,Vistara,Chennai,Mumbai,Cancelled,190,32091.0,377,3814,Travel Agent,Economy,A321,15
+FL0750,2025-10-11,SpiceJet,Chennai,Dubai,On Time,92,15541.0,85,3882,Airport Counter,Premium Economy,A321,20
+FL0751,2025-12-04,Air India,Chennai,Delhi,Cancelled,177,3223.0,137,1488,Airport Counter,Economy,A321,15
+FL0752,2025-10-02,Air India,Chennai,Mumbai,On Time,276,16031.0,116,3715,Mobile App,Premium Economy,B787,40
+FL0753,2025-09-01,SpiceJet,Hyderabad,Bengaluru,Delayed,228,32578.0,191,976,Website,Business,B787,15
+FL0754,2025-11-06,Vistara,Kolkata,Dubai,On Time,163,40257.0,70,3169,Website,Premium Economy,Unknown,30
+FL0755,2025-12-25,Akasa Air,Pune,Chennai,On Time,108,14268.0,510,2680,Mobile App,Economy,B787,30
+FL0756,2025-04-04,Air India,Pune,Delhi,Delayed,271,12850.0,190,3764,Mobile App,Business,B737,40
+FL0757,2025-12-24,Vistara,Chennai,Goa, ON TIME ,186,10444.0,238,463,Website,Business,B737,30
+FL0758,2025-03-26,Akasa Air,Bengaluru,Mumbai,On Time,163,4250.0,87,2766,Mobile App,Economy,B787,25
+FL0759,2025-07-24,Vistara,Pune,Delhi,On Time,109,10015.0,413,3906,Mobile App,Premium Economy,Unknown,40
+FL0760,2025-09-06,SpiceJet,Delhi,Mumbai,Delayed,213,18378.0,415,4041,Airport Counter,Business,B787,25
+FL0761,2025-03-29,IndiGo,Delhi,Chennai,Cancelled,76,37539.0,429,1750,Mobile App,Economy,Unknown,15
+FL0762,2025-05-20,SpiceJet,Chennai,Kolkata,Delayed,100,4757.0,507,2914,Website,Business,B787,40
+FL0763,2025-11-22,Air India,Pune,Hyderabad,On Time,58,41703.0,52,349,Airport Counter,Business,A321,25
+FL0764,2025-04-13,Air India,Chennai,Goa,On Time,48,24593.0,470,937,Mobile App,Economy,A321,15
+FL0765,2025-03-27,SpiceJet,Chennai,Goa,Delayed,72,23939.0,215,2452,Mobile App,Business,A350,20
+FL0766,2025-07-22,Air India,Delhi,Bengaluru,Delayed,72,25868.0,215,861,Website,Economy,Unknown,25
+FL0767,2025-07-19,Vistara,Chennai,Bengaluru,On Time,213,20748.0,382,2705,Travel Agent,Economy,A320,20
+FL0768,2025-06-04,SpiceJet,Delhi,Mumbai, ON TIME ,262,39803.0,137,1181,Website,Business,B737,40
+FL0769,2025-07-18,SpiceJet,Kolkata,Chennai,Cancelled,239,23338.0,485,2879,Airport Counter,Economy,B737,15
+FL0770,2025-10-27,SpiceJet,Pune,Mumbai,Cancelled,234,17732.0,307,2556,Mobile App,Economy,A321,15
+FL0771,2025-03-05,Akasa Air,Bengaluru,Goa, ON TIME ,107,7702.0,80,713,Travel Agent,Economy,B737,20
+FL0772,2025-07-12,Vistara,Chennai,Bengaluru,Cancelled,198,31580.0,428,3743,Travel Agent,Business,B737,25
+FL0773,2025-01-21,Air India,Hyderabad,Delhi,Delayed,261,24210.0,225,1142,Mobile App,Business,A320,40
+FL0774,2025-12-18,Vistara,Pune,Mumbai,Cancelled,91,31490.0,372,174,Website,Economy,A320,20
+FL0775,2025-11-21,SpiceJet,Bengaluru,Chennai,On Time,89,41338.0,331,3554,Mobile App,Business,A350,15
+FL0776,2025-08-28,Akasa Air,Mumbai,Bengaluru,Delayed,153,14062.0,360,1169,Travel Agent,Premium Economy,A350,30
+FL0777,2025-04-14,Akasa Air,Chennai,Mumbai,Cancelled,146,27254.0,135,2078,Airport Counter,Economy,A350,35
+FL0778,2025-08-10,SpiceJet,Chennai,Delhi, ON TIME ,142,30509.0,487,490,Travel Agent,Business,A350,20
+FL0779,2025-03-31,Akasa Air,Pune,Dubai,Cancelled,161,21061.0,242,2452,Website,Economy,A320,25
+FL0780,2025-08-29,Vistara,Mumbai,Bengaluru,On Time,48,35313.0,423,3121,Travel Agent,Economy,B787,30
+FL0781,2025-07-11,Air India,Chennai,Hyderabad,Cancelled,195,7168.0,259,3774,Website,Economy,B787,35
+FL0782,2025-04-10,Air India,Hyderabad,Kolkata,Delayed,226,34522.0,375,2970,Travel Agent,Economy,Unknown,30
+FL0783,2025-05-07,Vistara,Chennai,Delhi, ON TIME ,137,4351.0,407,2876,Mobile App,Business,B737,35
+FL0784,2025-12-15,SpiceJet,Hyderabad,Bengaluru,Delayed,193,13079.0,56,628,Website,Economy,B787,40
+FL0785,2025-02-11,Vistara,Pune,Chennai, ON TIME ,154,19072.0,404,1387,Website,Business,Unknown,30
+FL0786,2025-06-07,Air India,Delhi,Mumbai,Cancelled,191,25070.0,466,734,Travel Agent,Business,Unknown,30
+FL0787,2025-06-07,IndiGo,Mumbai,Dubai,On Time,69,7077.0,446,3002,Airport Counter,Business,B787,40
+FL0788,2025-08-09,SpiceJet,Mumbai,Kolkata,Delayed,225,11303.0,151,2142,Mobile App,Business,A320,30
+FL0789,2025-04-19,SpiceJet,Bengaluru,Delhi,Cancelled,91,15075.0,182,4176,Airport Counter,Economy,Unknown,35
+FL0790,2025-11-22,SpiceJet,Delhi,Hyderabad,On Time,141,10671.0,191,413,Travel Agent,Economy,A350,20
+FL0791,2025-09-06,Air India,Chennai,Delhi,Cancelled,237,2973.0,390,2535,Website,Economy,A321,35
+FL0792,2025-07-12,Akasa Air,Chennai,Dubai, ON TIME ,131,30644.0,222,1668,Mobile App,Premium Economy,B737,20
+FL0793,2025-12-07,Air India,Pune,Delhi,Cancelled,268,24143.0,462,560,Website,Economy,Unknown,30
+FL0794,2025-03-13,IndiGo,Delhi,Mumbai,Cancelled,224,18788.0,238,2001,Website,Economy,A350,30
+FL0795,2025-04-07,IndiGo,Kolkata,Delhi,Cancelled,137,5498.0,463,3163,Travel Agent,Economy,A321,35
+FL0796,2025-07-24,Air India,Kolkata,Goa,On Time,213,9083.0,425,1726,Travel Agent,Business,A321,40
+FL0797,2025-09-24,IndiGo,Mumbai,Dubai, ON TIME ,67,22249.0,476,2906,Website,Economy,A321,30
+FL0798,2025-09-04,Vistara,Bengaluru,Chennai, ON TIME ,213,8361.0,104,1931,Mobile App,Economy,A321,25
+FL0799,2025-05-24,Vistara,Hyderabad,Dubai,Cancelled,76,11396.0,323,2745,Mobile App,Economy,A320,40
+FL0800,2025-04-25,Air India,Kolkata,Goa,Cancelled,235,27511.0,384,2780,Website,Economy,A321,20
+FL0801,2025-03-01,Akasa Air,Delhi,Mumbai,On Time,132,41310.0,146,3199,Website,Business,B737,20
+FL0802,2025-07-14,IndiGo,Hyderabad,Delhi,Delayed,182,14942.0,483,1739,Airport Counter,Premium Economy,B737,40
+FL0803,2025-09-24,Vistara,Delhi,Goa,On Time,182,32686.0,211,742,Travel Agent,Business,B787,40
+FL0804,2025-03-17,Akasa Air,Mumbai,Delhi,Delayed,126,22743.0,307,2970,Website,Premium Economy,Unknown,35
+FL0805,2025-11-20,Vistara,Chennai,Hyderabad,Cancelled,141,6354.0,464,1514,Mobile App,Business,Unknown,20
+FL0806,2025-01-27,SpiceJet,Chennai,Goa,Cancelled,253,12932.0,61,2394,Airport Counter,Premium Economy,Unknown,40
+FL0807,2025-06-28,Air India,Pune,Mumbai,Delayed,231,21049.0,194,3002,Mobile App,Business,B787,15
+FL0808,2025-06-15,IndiGo,Hyderabad,Dubai,Cancelled,86,40324.0,120,1959,Mobile App,Economy,B737,20
+FL0809,2025-04-22,Vistara,Chennai,Kolkata,Cancelled,264,40227.0,102,2928,Mobile App,Economy,B787,40
+FL0810,2025-01-29,Air India,Kolkata,Dubai,Delayed,58,10190.0,313,2812,Travel Agent,Business,B787,20
+FL0811,2025-07-26,Vistara,Chennai,Mumbai,Delayed,146,34522.0,204,2967,Website,Business,Unknown,40
+FL0812,2025-12-21,Air India,Chennai,Goa,Cancelled,206,31671.0,238,197,Website,Economy,A320,15
+FL0813,2025-11-25,Vistara,Chennai,Dubai,Cancelled,222,8696.0,456,2578,Mobile App,Economy,B787,40
+FL0814,2025-08-11,Akasa Air,Mumbai,Kolkata,On Time,227,37726.0,144,1810,Mobile App,Economy,B787,35
+FL0815,2025-09-29,SpiceJet,Delhi,Mumbai, ON TIME ,194,37822.0,415,3503,Mobile App,Economy,A321,40
+FL0816,2025-04-03,SpiceJet,Chennai,Mumbai,On Time,249,23097.0,112,310,Mobile App,Business,A321,40
+FL0817,2025-02-14,Akasa Air,Chennai,Mumbai,On Time,174,22067.0,236,4107,Website,Business,B787,40
+FL0818,2025-05-08,Akasa Air,Chennai,Mumbai, ON TIME ,120,37502.0,277,722,Website,Economy,Unknown,25
+FL0819,2025-06-30,Vistara,Delhi,Bengaluru,On Time,93,11784.0,203,3656,Mobile App,Business,A350,35
+FL0820,2025-10-30,IndiGo,Hyderabad,Chennai,Cancelled,204,30157.0,88,2402,Travel Agent,Premium Economy,B787,40
+FL0821,2025-07-24,SpiceJet,Delhi,Hyderabad,Cancelled,153,11887.0,324,984,Website,Premium Economy,Unknown,40
+FL0822,2025-04-09,IndiGo,Mumbai,Goa, ON TIME ,84,23232.0,453,1926,Airport Counter,Economy,A350,20
+FL0823,2025-05-19,Air India,Delhi,Mumbai,On Time,61,24084.0,377,514,Travel Agent,Premium Economy,B737,20
+FL0824,2025-05-21,IndiGo,Delhi,Goa,Delayed,141,9381.0,450,3941,Website,Business,A350,40
+FL0825,2025-10-29,SpiceJet,Delhi,Mumbai,Cancelled,224,39996.0,493,1305,Website,Premium Economy,A350,15
+FL0826,2025-03-29,IndiGo,Pune,Chennai,Cancelled,251,37344.0,332,2585,Airport Counter,Economy,A350,20
+FL0827,2025-01-05,SpiceJet,Mumbai,Chennai,On Time,190,20022.0,77,3911,Mobile App,Premium Economy,Unknown,20
+FL0828,2025-11-08,Air India,Chennai,Dubai,Cancelled,249,33214.0,307,1324,Travel Agent,Economy,A350,40
+FL0829,2025-06-06,Air India,Hyderabad,Goa, ON TIME ,125,8407.0,374,475,Website,Business,A320,20
+FL0830,2025-01-30,Air India,Hyderabad,Mumbai,On Time,251,3200.0,267,2923,Website,Business,B787,30
+FL0831,2025-12-17,Air India,Pune,Delhi,Delayed,93,2977.0,415,1890,Mobile App,Business,Unknown,25
+FL0832,2025-12-05,IndiGo,Chennai,Mumbai,Delayed,89,7423.0,237,3588,Mobile App,Business,B737,15
+FL0833,2025-09-11,Air India,Mumbai,Kolkata,On Time,131,18868.0,475,2358,Website,Premium Economy,B737,30
+FL0834,2025-05-16,Vistara,Chennai,Goa,Delayed,123,36285.0,472,3809,Website,Economy,A350,30
+FL0835,2025-07-02,IndiGo,Chennai,Kolkata,Cancelled,135,9523.0,52,1582,Mobile App,Business,B787,25
+FL0836,2025-02-21,Air India,Chennai,Bengaluru,On Time,180,36206.0,510,779,Airport Counter,Economy,B787,15
+FL0837,2025-12-03,Akasa Air,Bengaluru,Dubai,On Time,140,22113.0,236,1904,Mobile App,Business,B737,15
+FL0838,2025-12-03,SpiceJet,Mumbai,Chennai,Cancelled,236,30940.0,52,1621,Mobile App,Business,A320,20
+FL0839,2025-01-21,SpiceJet,Pune,Goa,Cancelled,129,4571.0,132,2878,Mobile App,Economy,Unknown,25
+FL0840,2025-08-04,SpiceJet,Chennai,Kolkata, ON TIME ,240,28706.0,306,3123,Mobile App,Economy,A321,15
+FL0841,2025-01-11,SpiceJet,Mumbai,Kolkata,Delayed,48,17999.0,76,2928,Travel Agent,Economy,A350,40
+FL0842,2025-08-11,SpiceJet,Hyderabad,Dubai,On Time,239,30611.0,176,2679,Mobile App,Business,A321,20
+FL0843,2025-02-28,Akasa Air,Bengaluru,Goa,Delayed,166,22281.0,408,3141,Website,Business,A321,20
+FL0844,2025-11-19,SpiceJet,Bengaluru,Mumbai,Delayed,147,5014.0,190,937,Mobile App,Economy,A320,35
+FL0845,2025-02-16,IndiGo,Pune,Goa,Delayed,123,17666.0,163,1526,Airport Counter,Economy,A320,35
+FL0846,2025-11-26,IndiGo,Hyderabad,Mumbai,Cancelled,138,20886.0,229,3064,Airport Counter,Business,B737,15
+FL0847,2025-01-21,IndiGo,Chennai,Kolkata,Delayed,118,33436.0,193,3871,Website,Economy,B787,20
+FL0848,2025-09-09,IndiGo,Kolkata,Hyderabad,On Time,69,3395.0,399,2410,Mobile App,Premium Economy,B737,40
+FL0849,2025-10-29,IndiGo,Bengaluru,Hyderabad,Delayed,194,27669.0,94,3783,Website,Business,Unknown,40
+FL0850,2025-03-03,IndiGo,Bengaluru,Dubai,On Time,64,22281.0,366,1554,Travel Agent,Economy,A321,35
+FL0851,2025-03-20,IndiGo,Mumbai,Bengaluru,On Time,185,19049.0,506,3742,Website,Premium Economy,B737,30
+FL0852,2025-03-02,Air India,Delhi,Dubai,On Time,179,35521.0,454,239,Mobile App,Business,B737,40
+FL0853,2025-05-29,IndiGo,Chennai,Bengaluru,Cancelled,253,28550.0,303,2954,Website,Business,A320,20
+FL0854,2025-09-18,Air India,Pune,Goa,Delayed,114,16061.0,144,164,Mobile App,Business,A321,35
+FL0855,2025-01-05,SpiceJet,Hyderabad,Bengaluru,Cancelled,226,20097.0,332,637,Mobile App,Business,A320,35
+FL0856,2025-05-30,IndiGo,Mumbai,Hyderabad,Delayed,114,5876.0,378,4164,Mobile App,Business,A350,15
+FL0857,2025-11-29,IndiGo,Kolkata,Mumbai,Cancelled,271,38497.0,185,3107,Mobile App,Economy,A350,25
+FL0858,2025-01-30,IndiGo,Kolkata,Bengaluru,Cancelled,116,14082.0,181,4129,Website,Business,Unknown,35
+FL0859,2025-12-19,Air India,Hyderabad,Mumbai,Delayed,254,31479.0,162,1478,Travel Agent,Business,A350,40
+FL0860,2025-03-21,SpiceJet,Bengaluru,Goa,Cancelled,82,33892.0,97,2181,Mobile App,Economy,A321,20
+FL0861,2025-10-19,SpiceJet,Mumbai,Hyderabad,On Time,124,13177.0,503,877,Airport Counter,Business,A321,15
+FL0862,2025-02-06,Air India,Bengaluru,Dubai,Cancelled,148,9068.0,420,2307,Mobile App,Economy,A350,15
+FL0863,2025-07-16,IndiGo,Delhi,Chennai,Delayed,242,7978.0,187,734,Mobile App,Business,A320,15
+FL0864,2025-10-05,IndiGo,Delhi,Bengaluru,Delayed,167,39387.0,506,1969,Mobile App,Premium Economy,B737,30
+FL0865,2025-05-05,IndiGo,Hyderabad,Mumbai,On Time,50,5418.0,102,2380,Travel Agent,Economy,Unknown,30
+FL0866,2025-01-01,Vistara,Chennai,Bengaluru,On Time,143,12158.0,230,2834,Travel Agent,Business,Unknown,30
+FL0867,2025-02-27,SpiceJet,Mumbai,Bengaluru,On Time,117,25916.0,89,2671,Travel Agent,Economy,B737,15
+FL0868,2025-11-06,SpiceJet,Mumbai,Goa,Delayed,130,41796.0,142,2932,Airport Counter,Business,Unknown,40
+FL0869,2025-11-16,Akasa Air,Kolkata,Mumbai,Cancelled,279,35218.0,388,1661,Travel Agent,Economy,A320,20
+FL0870,2025-03-17,IndiGo,Mumbai,Goa,On Time,229,33854.0,467,425,Website,Business,B787,40
+FL0871,2025-03-16,Air India,Kolkata,Chennai,Delayed,241,27732.0,230,1457,Airport Counter,Economy,B787,40
+FL0872,2025-11-05,IndiGo,Mumbai,Bengaluru,On Time,152,38501.0,304,2356,Website,Economy,A350,35
+FL0873,2025-07-16,Air India,Pune,Mumbai,Delayed,243,16874.0,409,507,Mobile App,Premium Economy,A320,20
+FL0874,2025-07-05,SpiceJet,Mumbai,Delhi,Cancelled,137,11632.0,200,2035,Mobile App,Business,B787,20
+FL0875,2025-04-25,IndiGo,Mumbai,Chennai,On Time,232,4226.0,406,4102,Airport Counter,Premium Economy,A320,40
+FL0876,2025-12-06,Air India,Chennai,Delhi,Delayed,138,11758.0,90,1153,Website,Economy,A350,30
+FL0877,2025-04-04,SpiceJet,Mumbai,Hyderabad,On Time,150,24607.0,277,3350,Mobile App,Economy,B737,15
+FL0878,2025-01-31,IndiGo,Mumbai,Chennai,On Time,146,30262.0,398,4033,Airport Counter,Business,Unknown,25
+FL0879,2025-09-14,Akasa Air,Bengaluru,Goa,Delayed,114,8525.0,317,1696,Mobile App,Business,B787,35
+FL0880,2025-04-23,Air India,Mumbai,Dubai,On Time,125,29048.0,473,1708,Mobile App,Economy,B737,40
+FL0881,2025-04-10,Akasa Air,Delhi,Mumbai,On Time,137,24485.0,64,1131,Travel Agent,Business,A350,15
+FL0882,2025-04-19,IndiGo,Hyderabad,Bengaluru,Delayed,96,4621.0,173,1252,Website,Business,A350,15
+FL0883,2025-09-05,IndiGo,Chennai,Kolkata,On Time,124,3055.0,232,3228,Travel Agent,Economy,A350,20
+FL0884,2025-07-20,IndiGo,Mumbai,Kolkata,On Time,274,35502.0,101,2206,Mobile App,Economy,A350,30
+FL0885,2025-10-28,IndiGo,Hyderabad,Chennai,Delayed,219,32850.0,90,3775,Mobile App,Economy,Unknown,20
+FL0886,2025-12-15,SpiceJet,Mumbai,Kolkata,On Time,246,11098.0,223,1341,Travel Agent,Business,B787,15
+FL0887,2025-12-16,Air India,Bengaluru,Mumbai,Delayed,190,35105.0,99,3446,Website,Business,B737,35
+FL0888,2025-09-13,Air India,Chennai,Kolkata,Delayed,120,13082.0,84,1297,Website,Premium Economy,B737,15
+FL0889,2025-04-02,SpiceJet,Hyderabad,Dubai,Cancelled,240,31469.0,382,3935,Mobile App,Economy,A350,30
+FL0890,2025-07-06,Akasa Air,Pune,Goa, ON TIME ,203,10953.0,275,1652,Website,Business,Unknown,25
+FL0891,2025-12-16,Air India,Chennai,Hyderabad,Cancelled,55,6239.0,429,3388,Mobile App,Business,A320,20
+FL0892,2025-05-29,Air India,Mumbai,Goa, ON TIME ,63,17117.0,248,3730,Airport Counter,Economy,B737,30
+FL0893,2025-11-25,SpiceJet,Delhi,Mumbai,Delayed,232,9600.0,519,4080,Airport Counter,Economy,A321,30
+FL0894,2025-02-03,IndiGo,Kolkata,Dubai,Delayed,224,33709.0,108,1290,Airport Counter,Economy,A350,20
+FL0895,2025-03-16,Vistara,Kolkata,Delhi,Delayed,243,27422.0,81,3985,Travel Agent,Economy,B787,20
+FL0896,2025-04-19,IndiGo,Pune,Hyderabad,Cancelled,207,14041.0,92,730,Website,Premium Economy,B787,15
+FL0897,2025-12-31,SpiceJet,Pune,Mumbai,Delayed,216,19503.0,144,3551,Website,Economy,B787,25
+FL0898,2025-03-26,Vistara,Kolkata,Goa,On Time,166,37594.0,402,3360,Mobile App,Economy,B737,40
+FL0899,2025-07-19,IndiGo,Bengaluru,Mumbai,Cancelled,215,40411.0,365,742,Travel Agent,Premium Economy,A320,20
+FL0900,2025-03-17,SpiceJet,Kolkata,Mumbai, ON TIME ,217,29132.0,184,2282,Mobile App,Economy,B787,20
+FL0901,2025-08-19,Air India,Chennai,Bengaluru,Cancelled,93,30036.0,406,2386,Mobile App,Business,B787,20
+FL0902,2025-04-18,Vistara,Chennai,Kolkata, ON TIME ,138,3561.0,204,3822,Travel Agent,Business,A320,40
+FL0903,2025-11-29,SpiceJet,Pune,Goa,Cancelled,135,38051.0,268,2292,Travel Agent,Economy,A321,30
+FL0904,2025-07-11,SpiceJet,Mumbai,Goa,On Time,117,31171.0,374,1310,Mobile App,Business,A320,15
+FL0905,2025-02-15,IndiGo,Pune,Mumbai,On Time,236,38199.0,101,2744,Airport Counter,Business,A350,15
+FL0906,2025-05-29,Air India,Bengaluru,Dubai,Delayed,142,10003.0,150,3657,Airport Counter,Economy,B737,30
+FL0907,2025-11-27,Air India,Chennai,Kolkata, ON TIME ,102,35763.0,195,1246,Mobile App,Premium Economy,B737,30
+FL0908,2025-05-04,IndiGo,Pune,Delhi,On Time,51,12551.0,454,1683,Website,Business,B737,25
+FL0909,2025-10-20,Air India,Bengaluru,Mumbai,On Time,94,28276.0,474,361,Website,Economy,A321,40
+FL0910,2025-03-30,Air India,Kolkata,Mumbai,Delayed,156,17636.0,100,3058,Mobile App,Business,A320,40
+FL0911,2025-07-20,Akasa Air,Mumbai,Kolkata,Delayed,68,8612.0,63,1941,Website,Business,A321,15
+FL0912,2025-12-29,Air India,Pune,Delhi,Cancelled,232,11055.0,282,2748,Mobile App,Premium Economy,A321,20
+FL0913,2025-04-24,Akasa Air,Bengaluru,Mumbai, ON TIME ,107,27279.0,444,1216,Mobile App,Economy,B737,15
+FL0914,2025-11-18,IndiGo,Delhi,Mumbai,On Time,197,10540.0,104,730,Travel Agent,Premium Economy,A321,15
+FL0915,2025-09-11,IndiGo,Bengaluru,Goa,On Time,170,3938.0,261,451,Airport Counter,Economy,A321,40
+FL0916,2025-07-12,IndiGo,Chennai,Hyderabad,On Time,276,14209.0,387,2473,Mobile App,Business,A320,15
+FL0917,2025-06-27,SpiceJet,Chennai,Mumbai,Cancelled,110,10468.0,148,2632,Website,Business,A320,35
+FL0918,2025-03-20,Vistara,Kolkata,Mumbai,Delayed,52,23965.0,120,1050,Website,Business,B737,25
+FL0919,2025-04-13,Air India,Kolkata,Mumbai,Cancelled,120,33108.0,431,3463,Airport Counter,Economy,Unknown,30
+FL0920,2025-05-09,SpiceJet,Bengaluru,Hyderabad,On Time,71,40749.0,456,3289,Website,Premium Economy,A321,20
+FL0921,2025-09-07,Air India,Chennai,Goa,Delayed,236,20304.0,467,1455,Website,Economy,A350,30
+FL0922,2025-04-13,IndiGo,Kolkata,Mumbai,On Time,87,4712.0,311,1186,Website,Economy,B737,35
+FL0923,2025-09-29,IndiGo,Pune,Delhi,On Time,91,23647.0,269,3389,Mobile App,Premium Economy,A321,15
+FL0924,2025-12-03,IndiGo,Kolkata,Chennai, ON TIME ,125,10515.0,54,1454,Mobile App,Economy,Unknown,25
+FL0925,2025-08-27,IndiGo,Bengaluru,Mumbai,On Time,143,21086.0,358,1019,Website,Business,A320,35
+FL0926,2025-11-08,Air India,Pune,Goa,Cancelled,253,23479.0,151,957,Website,Economy,B787,15
+FL0927,2025-08-04,Air India,Delhi,Dubai,Delayed,198,23922.0,352,1718,Mobile App,Business,A320,25
+FL0928,2025-11-26,IndiGo,Chennai,Hyderabad,Delayed,260,28898.0,68,3819,Website,Business,A320,25
+FL0929,2025-01-09,Air India,Chennai,Mumbai, ON TIME ,250,29702.0,420,1382,Travel Agent,Premium Economy,B737,30
+FL0930,2025-10-12,IndiGo,Chennai,Delhi,On Time,121,32291.0,302,3626,Mobile App,Economy,B737,35
+FL0931,2025-01-15,Vistara,Chennai,Delhi,Delayed,71,23658.0,491,2966,Mobile App,Economy,A321,20
+FL0932,2025-04-08,IndiGo,Chennai,Delhi,Cancelled,271,5323.0,106,346,Travel Agent,Economy,B737,25
+FL0933,2025-11-10,Air India,Hyderabad,Chennai,Delayed,194,32692.0,111,667,Travel Agent,Business,A350,30
+FL0934,2025-07-18,Air India,Bengaluru,Dubai,Cancelled,170,20885.0,214,3314,Mobile App,Economy,A321,15
+FL0935,2025-06-01,Air India,Kolkata,Mumbai, ON TIME ,268,18384.0,387,2800,Mobile App,Business,Unknown,15
+FL0936,2025-09-11,IndiGo,Bengaluru,Delhi,Cancelled,100,33180.0,469,1727,Mobile App,Economy,A320,25
+FL0937,2025-10-30,IndiGo,Hyderabad,Dubai,Cancelled,84,35563.0,104,3894,Mobile App,Business,B737,30
+FL0938,2025-11-14,Vistara,Pune,Bengaluru,On Time,116,30227.0,134,2960,Travel Agent,Business,Unknown,15
+FL0939,2025-08-25,Air India,Delhi,Bengaluru,On Time,273,32702.0,145,1242,Website,Economy,Unknown,35
+FL0940,2025-06-30,Akasa Air,Delhi,Mumbai,On Time,135,30777.0,158,766,Airport Counter,Business,B787,35
+FL0941,2025-01-28,SpiceJet,Hyderabad,Kolkata,On Time,57,27568.0,424,3951,Airport Counter,Business,B737,20
+FL0942,2025-04-01,Akasa Air,Chennai,Mumbai,On Time,72,5768.0,380,1169,Website,Business,A320,15
+FL0943,2025-10-22,Akasa Air,Bengaluru,Mumbai,Delayed,70,20552.0,165,3765,Website,Economy,B787,30
+FL0944,2025-04-23,Akasa Air,Chennai,Bengaluru,Delayed,246,15841.0,227,2758,Travel Agent,Business,B737,40
+FL0945,2025-02-18,SpiceJet,Chennai,Hyderabad, ON TIME ,277,18138.0,137,1440,Mobile App,Economy,A321,20
+FL0946,2025-08-22,SpiceJet,Chennai,Dubai,On Time,130,3864.0,140,4141,Travel Agent,Economy,A321,40
+FL0947,2025-11-01,IndiGo,Chennai,Delhi,On Time,268,18720.0,291,598,Website,Economy,A350,40
+FL0948,2025-04-27,SpiceJet,Mumbai,Hyderabad, ON TIME ,233,24498.0,281,2159,Mobile App,Premium Economy,A350,25
+FL0949,2025-09-07,Akasa Air,Kolkata,Dubai,On Time,256,25609.0,204,3058,Travel Agent,Business,Unknown,35
+FL0950,2025-02-27,Akasa Air,Chennai,Goa, ON TIME ,101,11782.0,232,2189,Website,Business,A350,40
+FL0951,2025-08-09,IndiGo,Bengaluru,Mumbai,Delayed,280,27258.0,377,592,Travel Agent,Business,B787,35
+FL0952,2025-05-16,IndiGo,Kolkata,Goa,Delayed,151,20604.0,208,930,Website,Business,A350,40
+FL0953,2025-07-18,Air India,Pune,Dubai,Delayed,247,25240.0,197,601,Website,Economy,Unknown,20
+FL0954,2025-12-15,SpiceJet,Hyderabad,Mumbai,Cancelled,86,22399.0,299,1330,Website,Premium Economy,A320,30
+FL0955,2025-04-22,Akasa Air,Delhi,Dubai,Cancelled,46,30701.0,230,2854,Website,Economy,B737,20
+FL0956,2025-05-26,SpiceJet,Delhi,Hyderabad,Delayed,232,15392.0,271,2547,Website,Premium Economy,A321,15
+FL0957,2025-07-01,Vistara,Pune,Goa,On Time,276,8931.0,507,1220,Travel Agent,Business,B737,20
+FL0958,2025-08-12,IndiGo,Mumbai,Bengaluru,Cancelled,79,29783.0,333,967,Travel Agent,Premium Economy,A320,25
+FL0959,2025-11-18,SpiceJet,Mumbai,Goa, ON TIME ,269,31132.0,99,717,Website,Economy,Unknown,25
+FL0960,2025-12-17,IndiGo,Chennai,Kolkata,On Time,164,30058.0,260,2039,Website,Business,A320,30
+FL0961,2025-03-13,Akasa Air,Bengaluru,Mumbai,Cancelled,77,38103.0,510,2466,Travel Agent,Economy,B787,20
+FL0962,2025-12-10,IndiGo,Chennai,Mumbai,On Time,259,6061.0,93,374,Travel Agent,Economy,Unknown,35
+FL0963,2025-05-29,SpiceJet,Kolkata,Delhi,On Time,234,40813.0,395,2242,Mobile App,Economy,Unknown,20
+FL0964,2025-03-15,SpiceJet,Mumbai,Bengaluru,Cancelled,208,12643.0,204,2723,Travel Agent,Economy,B787,35
+FL0965,2025-04-13,Air India,Delhi,Chennai,Delayed,270,10432.0,316,546,Mobile App,Business,A320,30
+FL0966,2025-07-18,SpiceJet,Pune,Delhi,On Time,121,29013.0,297,4175,Mobile App,Business,A350,25
+FL0967,2025-12-15,SpiceJet,Delhi,Goa,Delayed,207,3919.0,144,730,Mobile App,Business,A321,35
+FL0968,2025-12-25,Vistara,Chennai,Dubai,Cancelled,119,9054.0,351,2169,Travel Agent,Premium Economy,B787,30
+FL0969,2025-02-24,SpiceJet,Pune,Goa,Delayed,52,21074.0,284,642,Website,Economy,A320,35
+FL0970,2025-01-18,SpiceJet,Chennai,Kolkata,Delayed,164,32538.0,191,187,Mobile App,Premium Economy,A350,35
+FL0971,2025-06-28,Air India,Delhi,Chennai,Cancelled,83,25559.0,385,3095,Website,Premium Economy,B787,40
+FL0972,2025-05-23,Akasa Air,Pune,Mumbai, ON TIME ,210,34202.0,242,4092,Airport Counter,Business,Unknown,20
+FL0973,2025-12-29,Akasa Air,Mumbai,Kolkata,Delayed,193,25312.0,349,2679,Airport Counter,Economy,A320,15
+FL0974,2025-03-23,Vistara,Delhi,Mumbai,On Time,218,33722.0,215,3262,Mobile App,Business,A320,20
+FL0975,2025-07-16,Air India,Delhi,Hyderabad,On Time,162,7276.0,276,3276,Travel Agent,Business,Unknown,15
+FL0976,2025-06-14,Air India,Chennai,Goa,Delayed,208,40103.0,334,968,Mobile App,Premium Economy,B787,30
+FL0977,2025-05-27,Vistara,Bengaluru,Chennai,On Time,253,37137.0,464,3385,Mobile App,Economy,Unknown,15
+FL0978,2025-12-09,Air India,Bengaluru,Delhi, ON TIME ,80,2843.0,234,3321,Airport Counter,Business,A350,15
+FL0979,2025-04-05,SpiceJet,Bengaluru,Dubai,Delayed,135,25862.0,366,3835,Website,Business,A320,30
+FL0980,2025-11-17,Air India,Delhi,Mumbai,Delayed,245,36398.0,202,563,Website,Economy,A321,15
+FL0981,2025-10-04,IndiGo,Chennai,Bengaluru, ON TIME ,119,18974.0,249,3030,Travel Agent,Economy,A321,25
+FL0982,2025-10-01,Vistara,Hyderabad,Goa,Delayed,59,38278.0,407,3802,Website,Business,B787,25
+FL0983,2025-01-16,IndiGo,Kolkata,Goa,Cancelled,96,24424.0,504,3282,Website,Business,A321,35
+FL0984,2025-06-18,IndiGo,Bengaluru,Dubai,On Time,251,39452.0,513,2648,Mobile App,Economy,B737,15
+FL0985,2025-11-03,Air India,Chennai,Hyderabad,Cancelled,55,9319.0,68,2184,Website,Business,Unknown,25
+FL0986,2025-09-02,Akasa Air,Bengaluru,Delhi,On Time,51,15356.0,323,2640,Airport Counter,Economy,A350,30
+FL0987,2025-07-18,Air India,Mumbai,Goa,Cancelled,154,38514.0,120,623,Airport Counter,Economy,A350,25
+FL0988,2025-04-10,IndiGo,Pune,Delhi,Delayed,104,8528.0,351,191,Mobile App,Economy,Unknown,35
+FL0989,2025-01-24,IndiGo,Bengaluru,Delhi,On Time,59,10804.0,274,889,Travel Agent,Economy,B737,25
+FL0990,2025-12-02,Vistara,Hyderabad,Chennai,Delayed,146,33872.0,386,651,Mobile App,Economy,A320,25

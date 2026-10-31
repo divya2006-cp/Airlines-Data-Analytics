@@ -1,0 +1,144 @@
+
+Airlines Data Analytics – SQL Questions and Queries
+______________________________________________________________________
+
+Step 1 :
+
+create database Airline_Analyses;
+USE Airlines_Analyses;
+
+Step 2 :
+
+CREATE TABLE Airlines_Flights (
+    Flight_ID VARCHAR(20),
+    Flight_Date DATE,
+    Airline VARCHAR(50),
+    Origin VARCHAR(50),
+    Destination VARCHAR(50),
+    Flight_Status VARCHAR(30),
+    Passenger_Count INT,
+    Ticket_Price_INR DECIMAL(10,2),
+    Flight_Duration_Min INT,
+    Distance_KM INT,
+    Booking_Channel VARCHAR(50),
+    Cabin_Class VARCHAR(50),
+    Aircraft_Type VARCHAR(30),
+    Baggage_Allowance_KG INT);
+
+Step 3 :
+
+Table Data Import Wizard 
+
+Step 4 : 
+
+use airline_analyses;
+show tables;
+select * from airlines_data_analytics_cleaned;
+select * from airlines_data_analytics_cleaned limit 1000;
+
+_______________________________________________________________________
+Questions And Answers :-
+________________________________________________________________________
+
+1. What is the total number of flights?
+
+SELECT COUNT(*) AS Total_Flights
+FROM airlines_data_analytics_cleaned;
+
+
+2. How many flights does each airline operate?
+
+SELECT Airline, COUNT(*) AS Total_Flights
+FROM airlines_data_analytics_cleaned
+GROUP BY Airline;
+
+3. How many flights are On Time, Delayed, and Cancelled?
+
+SELECT Flight_Status, COUNT(*) AS Total_Flights
+FROM airlines_data_analytics_cleaned
+GROUP BY Flight_Status;
+
+4. What is the average ticket price?
+
+SELECT ROUND(AVG(Ticket_Price_INR), 2) AS Average_Ticket_Price
+FROM airlines_data_analytics_cleaned;
+
+
+5.  What is the highest ticket price?
+
+SELECT MAX(Ticket_Price_INR) AS Highest_Ticket_Price
+FROM airlines_data_analytics_cleaned;
+
+
+6. What is the lowest ticket price?
+
+SELECT MIN(Ticket_Price_INR) AS Lowest_Ticket_Price
+FROM airlines_data_analytics_cleaned;
+
+
+7. Which destinations have the highest number of flights?
+
+SELECT Destination, COUNT(*) AS Total_Flights
+FROM airlines_data_analytics_cleaned
+GROUP BY Destination
+ORDER BY Total_Flights DESC;
+
+
+8. How many flights depart from each origin?
+
+SELECT Origin, COUNT(*) AS Total_Flights
+FROM airlines_data_analytics_cleaned
+GROUP BY Origin
+ORDER BY Total_Flights DESC;
+
+
+9. What is the average ticket price for each airline?
+
+SELECT Airline,
+       ROUND(AVG(Ticket_Price_INR), 2) AS Average_Ticket_Price
+FROM airlines_data_analytics_cleaned
+GROUP BY Airline
+ORDER BY Average_Ticket_Price DESC;
+
+
+10. Which flights are delayed?
+
+SELECT *
+FROM airlines_data_analytics_cleaned
+WHERE TRIM(LOWER(Flight_Status)) = 'delayed';
+
+11. Which airlines operate flights from Chennai?
+
+SELECT *
+FROM airlines_data_analytics_cleaned
+WHERE Origin = 'Chennai';
+
+12. Which flights have ticket prices above ₹10,000?
+
+SELECT Flight_ID, Airline, Ticket_Price_INR
+FROM airlines_data_analytics_cleaned
+WHERE CAST(Ticket_Price_INR AS UNSIGNED) > 10000;
+
+13. Which flights are cancelled?
+
+SELECT Flight_ID, Airline, Flight_Status
+FROM airlines_data_analytics_cleaned
+WHERE TRIM(LOWER(Flight_Status)) = 'cancelled';
+
+14. How many flights operate to each destination?
+
+SELECT Destination, COUNT(*) AS Total_Flights
+FROM airlines_data_analytics_cleaned
+GROUP BY Destination
+ORDER BY Total_Flights DESC;
+
+15. Which flights arrive at Chennai?
+
+SELECT Flight_ID, Airline, Destination
+FROM airlines_data_analytics_cleaned
+WHERE Destination = 'Chennai';
+
+
+
+
+
